@@ -1,0 +1,673 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+.boldFont{
+  font-weight: bold;
+}
+.lidot{
+  list-style: disc;
+}
+/* 迦途四季*/
+#jiatuBackground{
+  position: relative;
+  z-index: 1;
+}
+#jiatuBackground:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('/images/jiatu/jiatu-background.jpg') center center;
+  opacity: .3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 春 */
+.springContainer{
+  position: relative;
+  z-index: 1;
+  width:100%;
+}
+.springContainer:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('/images/jiatu/spring/background.jpg') center center;
+  opacity: .3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 夏 */
+.summerContainer{
+  position: relative;
+  z-index: 1;
+  width:100%;
+}
+.summerContainer:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('/images/jiatu/summer/background.jpg') center center;
+  opacity: .3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* 秋 */
+.autumnContainer{
+  position: relative;
+  z-index: 1;
+  width:100%;
+}
+.autumnContainer:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('/images/jiatu/autumn/background.jpg') center center;
+  opacity: .3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* 冬 */
+.winterContainer{
+  position: relative;
+  z-index: 1;
+  width:100%;
+}
+.winterContainer:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('/images/jiatu/winter/background.jpg') center center;
+  opacity: .3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgBorder{
+  border: 2px solid #FFF;
+}
+
+.tipBtn{
+  background-color: rgb(255, 193, 127);
+  color:#2B689C;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.tipContent{
+  color:rgb(43, 29, 242);
+  margin-left:1.5%;
+}
+
+/* image scroller for spring/summer/autumn/winter page*/
+.scroller {
+  display:table;
+  position: relative;
+  width:100%;
+}
+.scroller .innerScrollArea {
+  display:table-cell;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.scroller ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.scroller li {
+  padding: 0;
+  margin: 0 0.5%;
+  list-style-type: none;
+  position: absolute;
+}
+
+.sprev {
+  display:table-cell;
+  width:5%;
+  height:auto;
+}
+.snext {
+  display:table-cell;
+  width:5%;
+  height:auto;
+}
+
+.seasonHeader{
+  width:80%;
+  margin:0 auto;
+  padding-top: 3%;
+}
+
+.info{
+  width:70%;
+  margin:1.5% 20%;
+  padding-top: 3%;
+}
+.content2{
+  color:red;
+}
+
+.content7:hover{
+  background-color: #5F5F5F;
+}
+.content8{
+  font-size:16px;
+  color:#FFF;
+}
+.content8:hover{
+  text-decoration: none;
+  color:#FFF;
+}
+
+.retuenBtn2:hover{
+  text-decoration: none;
+  color:#FFF; 
+}
+.info2{
+  width:70%;
+}
+.fanhuibtn{
+  width:25%;
+}
+
+
+/*useterm page*/
+.termContent{
+  font-size:15px;
+  margin: 2% 0;
+}
+
+
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  .title1{
+    font:normal normal normal 25px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title2{
+    font:normal normal normal 18px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title3{
+    font-size:25px;
+  }
+  .content1{
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .content2{
+    font-size:14px;
+  }
+  .content3{
+    font-size:15px;
+    padding:1% 0;
+    font-weight:bold;
+  }
+  .content4{
+    font-size:20px;
+  }
+  .content5{
+    font-size:15px;
+  }
+  .content6{
+    font-size: 12px;
+    font-weight:bold;
+  }
+  .content7{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(242, 121, 121, 0.68);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 14%;
+    margin-top:3%;
+  }
+  /* image scroller for spring/summer/autumn/winter page*/
+  .scroller {
+    height:110px;
+  }
+  .scroller .innerScrollArea {
+    border-radius: 25px;
+    width:80%;
+    margin:0 10%;
+  }
+  .scroller li img{
+    border-radius: 25px;
+    width:200px;
+  }
+  .sprev {
+    padding-top: 5%;
+  }
+  .snext {
+    padding-top: 5%;
+  }
+  .tipBtn{
+    font-size:12px;
+  }
+  .tipContent{
+    font-size:13px;
+  }
+  .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 30px solid rgba(48, 197, 227,1);
+    border-bottom: 15px solid transparent;
+    display:inline-block;
+    position: relative;
+  }
+  .returnBtn{
+    width: 60px;
+    height: 30px;
+    background-color: rgba(48, 197, 227,1);
+    display:inline-block;
+    position: absolute;
+  }
+  .retuenBtn2{
+    font: italic normal normal 15px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#FFF;
+    padding-left: 15%; 
+    line-height: 30px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+  .title1{
+    font:normal normal normal 30px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title2{
+    font:normal normal normal 25px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title3{
+    font-size:30px;
+  }
+  .content1{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .content2{
+    font-size:20px;
+  }
+  .content3{
+    font-size:18px;
+    padding:1% 0;
+    font-weight:bold;
+  }
+  .content4{
+    font-size:25px;
+  }
+  .content5{
+    font-size:15px;
+  }
+  .content6{
+    font-size: 12px;
+    font-weight:bold;
+  }
+  .content7{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(242, 121, 121, 0.68);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 14%;
+    margin-top:3%;
+  }
+  /* image scroller for spring/summer/autumn/winter page*/
+  .scroller {
+    height:170px;
+  }
+  .scroller .innerScrollArea {
+    border-radius: 50px;
+    width:80%;
+    margin:0 10%;
+  }
+  .scroller li img{
+    border-radius: 50px;
+    width:300px;
+  }
+  .sprev {
+    padding-top:8%;
+    padding-left: 2%;
+  }
+  .snext {
+    padding-top:8%;
+    padding-right: 2%;
+  }
+  .tipBtn{
+    font-size:14px;
+  }
+  .tipContent{
+    font-size:16px;
+  }
+  .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 30px solid rgba(48, 197, 227,1);
+    border-bottom: 15px solid transparent;
+    display:inline-block;
+    position: relative;
+  }
+  .returnBtn{
+    width: 60px;
+    height: 30px;
+    background-color: rgba(48, 197, 227,1);
+    display:inline-block;
+    position: absolute;
+  }
+  .retuenBtn2{
+    font: italic normal normal 15px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#FFF;
+    padding-left: 15%; 
+    line-height: 30px;
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 992px) and (orientation : landscape) {
+  .title1{
+    font:normal normal normal 45px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title2{
+    font:normal normal normal 45px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title3{
+    font-size:55px;
+  }
+  .content1{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .content2{
+    font-size:33px;
+  }
+  .content3{
+    font-size:23px;
+    padding:1% 0;
+    font-weight:bold;
+  }
+  .content4{
+    font-size:37px;
+  }
+  .content5{
+    font-size:18px;
+  }
+  .content6{
+    font-size: 15px;
+    font-weight:bold;
+  }
+  .content7{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(242, 121, 121, 0.68);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 24%;
+    margin-top:3%;
+  }
+  /* image scroller for spring/summer/autumn/winter page*/
+  .scroller {
+    height:229px;
+  }
+  .scroller .innerScrollArea {
+    border-radius: 50px;
+    width:90%;
+    margin:0 5%;
+  }
+  .scroller li img{
+    border-radius: 50px;
+    width:400px;
+  }
+  .sprev {
+    padding-top:10%;
+  }
+  .snext {
+    padding-top:10%;
+  }
+  .tipBtn{
+    font-size:16px;
+  }
+  .tipContent{
+    font-size:19px;
+  }
+  .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 40px solid rgba(48, 197, 227,1);
+    border-bottom: 20px solid transparent;
+    display:inline-block;
+    position: relative;
+  }
+  .returnBtn{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(48, 197, 227,1);
+    display:inline-block;
+    position: absolute;
+  }
+  .retuenBtn2{
+    font: italic normal normal 23px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#FFF;
+    padding-left: 15%; 
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-device-width : 992px) and (max-device-width : 1200px) and (-webkit-min-device-pixel-ratio: 2){
+  .title1{
+    font:normal normal normal 55px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title2{
+    font:normal normal normal 55px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title3{
+    font-size:55px;
+  }
+  .content1{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .content2{
+    font-size:37px;
+  }
+  .content3{
+    font-size:23px;
+    padding:1% 0;
+    font-weight:bold;
+  }
+  .content4{
+    font-size:37px;
+  }
+  .content5{
+    font-size:18px;
+  }
+  .content6{
+    font-size: 15px;
+    font-weight:bold;
+  }
+  .content7{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(242, 121, 121, 0.68);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 24%;
+    margin-top:3%;
+  }
+  /* image scroller for spring/summer/autumn/winter page*/
+  .scroller {
+    height:282px;
+  }
+  .scroller .innerScrollArea {
+    border-radius: 50px;
+    width:90%;
+    margin:0 5%;
+  }
+  .scroller li img{
+    border-radius: 50px;
+    width:500px;
+  }
+  .sprev {
+    padding-top:10%;
+  }
+  .snext {
+    padding-top:10%;
+  }
+  .tipBtn{
+    font-size:18px;
+  }
+  .tipContent{
+    font-size:22px;
+  }
+  .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 40px solid rgba(48, 197, 227,1);
+    border-bottom: 20px solid transparent;
+    display:inline-block;
+    position: relative;
+  }
+  .returnBtn{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(48, 197, 227,1);
+    display:inline-block;
+    position: absolute;
+  }
+  .retuenBtn2{
+    font: italic normal normal 23px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#FFF;
+    padding-left: 15%; 
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-device-width : 1200px) {
+
+  .title1{
+    font:normal normal normal 65px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title2{
+    font:normal normal normal 65px georgia,palatino,'book antiqua','palatino linotype',serif;
+  }
+  .title3{
+    font-size:55px;
+  }
+  .content1{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .content2{
+    font-size:35px;
+  }
+  .content3{
+    font-size:23px;
+    padding:1% 0;
+    font-weight:bold;
+  }
+  .content4{
+    font-size:37px;
+  }
+  .content5{
+    font-size:18px;
+  }
+  .content6{
+    font-size: 15px;
+    font-weight:bold;
+  }
+  .content7{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(242, 121, 121, 0.68);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 24%;
+    margin-top:3%;
+  }
+
+  /* image scroller for spring/summer/autumn/winter page*/
+  .scroller {
+    height:338px;
+  }
+  .scroller .innerScrollArea {
+    border-radius: 50px;
+    width:90%;
+    margin:0 5%;
+  }
+  .scroller li img{
+    border-radius: 50px;
+    width:600px;
+  }
+  .sprev {
+    padding-top:8%;
+    padding-left: 1%;
+  }
+  .snext {
+    padding-top:8%;
+  }
+  .tipBtn{
+    font-size:20px;
+  }
+  .tipContent{
+    font-size:25px;
+  }
+  .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 40px solid rgba(48, 197, 227,1);
+    border-bottom: 20px solid transparent;
+    display:inline-block;
+    position: relative;
+  }
+  .returnBtn{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(48, 197, 227,1);
+    display:inline-block;
+    position: absolute;
+  }
+  .retuenBtn2{
+    font: italic normal normal 23px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#FFF;
+    padding-left: 15%; 
+  }
+}

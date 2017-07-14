@@ -1,0 +1,634 @@
+#TWBackground{
+	position: fixed;
+  	z-index: -1000;
+  	top: 0;
+  	width:100%;
+}
+#TWBackground img{
+  	width:100%;
+  	height:100%;
+	opacity: .5;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+}
+.tw1{
+	color:#333;
+	padding-top:2%;
+}
+.twR{
+	width:38%;
+}
+.twL{
+	width: 60%;
+    margin-right: 2%;
+    margin-top: 7%;
+}
+.twinfo p{
+	padding-top:5%;
+	padding-left:3%;
+}
+.twSection{
+	width: 96%;
+	margin:auto; 
+	margin-top: 3%;
+	color:#333;
+}
+.twBtn:hover{
+	background-color: #5F5F5F;
+}
+.twLink:hover{
+	color:#fff;
+}
+.rotate40{
+	-webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    margin-left: 10%;
+}
+.lalala{
+	margin-top: 10%;
+	margin-right: 10%;
+}
+.twLeft{
+	position:relative;
+}
+.twRight{
+	position:relative;
+}
+.twMiddle{
+	margin-top: 20%;
+}
+.twText{
+	text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+	position: absolute;
+	font-weight:bold;
+	color:#000000;
+}
+.twImg{
+	width: 100%;
+}
+.twimgLine{
+	padding: 1%;
+}
+.twimgLine img{
+	margin-bottom:8%;
+}
+.twimgLine2{
+	padding: 0.5%;
+}
+.twimgLine2 img{
+	margin-bottom:2%;
+}
+
+.twLeft1{
+	position:relative;
+	margin-top: 60%;
+
+}
+.twRight1{
+	position:relative;
+	margin-top:82%;
+
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+.twContent{
+	width:85%;
+	margin:0 auto;
+	background-color: rgba(243, 224, 173,.8);
+}
+.twTitle{
+	font:normal normal normal 18px georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.twinfo p{
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size:8px;
+    font-family: signika,sans-serif;
+}
+.twSection{
+	font:normal normal normal 9px raleway,sans-serif;
+}
+.twBtn{
+	margin: 5% 2%;
+    float: right;
+    width: 80px;
+    height: 30px;
+    background-color: #2B1DF2;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+.twLink{
+	font-size: 10px;
+    color: #FFF;
+}
+.twMain{
+	width:98%;
+	margin:5% auto;
+}
+.twMain1{
+	width:100%;
+	margin:auto;
+}
+.twstart{
+	font:normal normal normal 7px raleway,sans-serif;
+	color:#333;
+	padding: 0;
+}
+.twstart p{
+	margin-bottom:1%;
+	font:normal normal normal 7px raleway,sans-serif;
+}
+.twTextLeft{	
+	top: 78%;
+    left: 42%;
+    font-size: 7px;
+}
+.twTextRight{
+	top: 13%;
+    left: 39%;
+    font-size: 7px;
+}
+.twTextLeft1{	
+	top: 55%;
+    left: 42%;
+    font-size: 7px;
+}
+.twTextRight1{
+	top: 58%;
+    left: 39%;
+    font-size: 7px;
+}
+.twTitle1{
+	color: #FDE030;
+    font:normal normal normal 12px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: #029B7E;
+    padding:1%;
+}
+.twfanhuibtn{
+	margin:3% 25%;
+}
+.deer{
+	margin-top: 110%;
+}
+.deer1{
+	margin-top: 40%;
+}
+.deer2{
+	margin-top: 20%;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px) {
+.twContent{
+	width:75%;
+	margin:0 auto;
+	background-color: rgba(243, 224, 173,.8);
+}
+.twTitle{
+	font:normal normal normal 25px georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.twinfo p{
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size:10px;
+    font-family: signika,sans-serif;
+}
+.twSection{
+	font:normal normal normal 12px raleway,sans-serif;
+}
+.twBtn{
+	margin: 5% 2%;
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #2B1DF2;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+.twLink{
+	font-size: 12px;
+    color: #FFF;
+}
+.twMain{
+	width:98%;
+	margin:5% auto;
+}
+.twMain1{
+	width:100%;
+	margin:auto;
+}
+.twstart{
+	font:normal normal normal 9px raleway,sans-serif;
+	color:#333;
+}
+.twstart p{
+	margin-bottom:1%;
+	font:normal normal normal 9px raleway,sans-serif;
+}
+.twTextLeft{	
+	top: 74%;
+    left: 42%;
+    font-size: 9px;
+}
+.twTextRight{
+	top: 13%;
+    left: 39%;
+    font-size: 9px;
+}
+.twTextLeft1{	
+	top: 55%;
+    left: 42%;
+    font-size: 9px;
+}
+.twTextRight1{
+	top: 58%;
+    left: 39%;
+    font-size: 9px;
+}
+.twTitle1{
+	color: #FDE030;
+    font:normal normal normal 17px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: #029B7E;
+    padding:1%;
+}
+.twfanhuibtn{
+	margin:3% 18%;
+}
+.deer{
+	margin-top: 80%;
+}
+.deer1{
+	margin-top: 40%;
+}
+.deer2{
+	margin-top: 20%;
+}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 992px) and (-webkit-min-device-pixel-ratio: 2){
+.twContent{
+	width:75%;
+	margin:0 auto;
+	background-color: rgba(243, 224, 173,.8);
+}
+.twTitle{
+	font:normal normal normal 40px georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.twinfo p{
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size:16px;
+    font-family: signika,sans-serif;
+}
+.twSection{
+	font:normal normal normal 16px raleway,sans-serif;
+}
+.twBtn{
+	margin: 5% 2%;
+    float: right;
+    width: 160px;
+    height: 50px;
+    background-color: #2B1DF2;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.twLink{
+	font-size: 16px;
+    color: #FFF;
+}
+.twMain{
+	width:98%;
+	margin:5% auto;
+}
+.twMain1{
+	width:98%;
+	margin:auto;
+}
+.twstart{
+	font:normal normal normal 13px raleway,sans-serif;
+	color:#333;
+}
+.twstart p{
+	margin-bottom:1%;
+	font:normal normal normal 13px raleway,sans-serif;
+}
+.twTextLeft{	
+	top: 74%;
+    left: 42%;
+    font-size: 12px;
+}
+.twTextRight{
+	top: 13%;
+    left: 39%;
+    font-size: 12px;
+}
+.twTextLeft1{	
+	top: 55%;
+    left: 42%;
+    font-size: 12px;
+}
+.twTextRight1{
+	top: 58%;
+    left: 39%;
+    font-size: 12px;
+}
+.twTitle1{
+	color: #FDE030;
+    font:normal normal normal 17px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: #029B7E;
+    padding:1%;
+}
+.twfanhuibtn{
+	margin:3% 12%;
+}
+.deer{
+	margin-top: 80%;
+}
+.deer1{
+	margin-top: 40%;
+}
+.deer2{
+	margin-top: 20%;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-device-width : 992px) and (max-device-width : 1200px) and (-webkit-min-device-pixel-ratio: 2){
+.twContent{
+	width:75%;
+	margin:0 auto;
+	background-color: rgba(243, 224, 173,.8);
+}
+.twTitle{
+	font:normal normal normal 50px georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.twinfo p{
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size:16px;
+    font-family: signika,sans-serif;
+}
+.twSection{
+	font:normal normal normal 16px raleway,sans-serif;
+}
+.twBtn{
+	margin: 5% 2%;
+    float: right;
+    width: 160px;
+    height: 50px;
+    background-color: #2B1DF2;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.twLink{
+	font-size: 16px;
+    color: #FFF;
+}
+.twMain{
+	width:98%;
+	margin:5% auto;
+}
+.twMain1{
+	width:90%;
+	margin:auto;
+}
+.twstart{
+	font:normal normal normal 14px raleway,sans-serif;
+	color:#333;
+}
+.twstart p{
+	margin-bottom:5%;
+	font:normal normal normal 14px raleway,sans-serif;
+}
+.twTextLeft{	
+	top: 74%;
+    left: 42%;
+    font-size: 15px;
+}
+.twTextRight{
+	top: 13%;
+    left: 39%;
+    font-size: 15px;
+}
+.twTextLeft1{	
+	top: 55%;
+    left: 42%;
+    font-size: 15px;
+}
+.twTextRight1{
+	top: 58%;
+    left: 39%;
+    font-size: 15px;
+}
+.twTitle1{
+	color: #FDE030;
+    font:normal normal normal 17px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: #029B7E;
+    padding:1%;
+}
+.twfanhuibtn{
+	margin:3% 12%;
+}
+.deer{
+	margin-top: 80%;
+}
+.deer1{
+	margin-top: 40%;
+}
+.deer2{
+	margin-top: 20%;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-device-width : 1201px) and (max-device-width : 1500px) and (-webkit-min-device-pixel-ratio: 2){
+.twContent{
+	width:75%;
+	margin:0 auto;
+	background-color: rgba(243, 224, 173,.8);
+}
+.twTitle{
+	font:normal normal normal 60px georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.twinfo p{
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size:18px;
+    font-family: signika,sans-serif;
+}
+.twSection{
+	font:normal normal normal 18px raleway,sans-serif;
+}
+.twBtn{
+	margin: 5% 2%;
+    float: right;
+    width: 160px;
+    height: 50px;
+    background-color: #2B1DF2;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.twLink{
+	font-size: 16px;
+    color: #FFF;
+}
+.twMain{
+	width:98%;
+	margin:5% auto;
+}
+.twMain1{
+	width:90%;
+	margin:auto;
+}
+.twstart{
+	font:normal normal normal 16px raleway,sans-serif;
+	color:#333;
+}
+.twstart p{
+	margin-bottom:5%;
+	font:normal normal normal 16px raleway,sans-serif;
+}
+.twTextLeft{	
+	top: 74%;
+    left: 42%;
+    font-size: 18px;
+}
+.twTextRight{
+	top: 13%;
+    left: 39%;
+    font-size: 18px;
+}
+.twTextLeft1{	
+	top: 55%;
+    left: 42%;
+    font-size: 18px;
+}
+.twTextRight1{
+	top: 58%;
+    left: 39%;
+    font-size: 18px;
+}
+.twTitle1{
+	color: #FDE030;
+    font:normal normal normal 17px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: #029B7E;
+    padding:1%;
+}
+.twfanhuibtn{
+	margin:3% 12%;
+}
+.deer{
+	margin-top: 80%;
+}
+.deer1{
+	margin-top: 40%;
+}
+.deer2{
+	margin-top: 20%;
+}
+}
+
+@media only screen and (min-device-width : 1501px) {
+.twContent{
+	width:75%;
+	margin:0 auto;
+	background-color: rgba(243, 224, 173,.8);
+}
+.twTitle{
+	font:normal normal normal 65px georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.twinfo p{
+	
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size:20px;
+    font-family: signika,sans-serif;
+}
+.twSection{
+	font:normal normal normal 25px raleway,sans-serif;
+}
+.twBtn{
+	margin: 5% 2%;
+    float: right;
+    width: 160px;
+    height: 50px;
+    background-color: #2B1DF2;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.twLink{
+	font-size: 16px;
+    color: #FFF;
+}
+.twMain{
+	width:98%;
+	margin:5% auto;
+}
+.twMain1{
+	width:90%;
+	margin:auto;
+}
+.twstart{
+	font:normal normal normal 20px raleway,sans-serif;
+	color:#333;
+}
+.twstart p{
+	margin-bottom:5%;
+	font:normal normal normal 20px raleway,sans-serif;
+}
+.twstart1{
+	font:normal normal normal 15px raleway,sans-serif;;
+    text-align: center;
+    color:#333;
+    font-weight: bold;
+}
+.twTextLeft{	
+	top: 74%;
+    left: 45%;
+	font-size:22px;
+}
+.twTextRight{
+	top: 13%;
+	left: 39%;
+	font-size:22px;
+}
+.twTextLeft1{	
+	top: 55%;
+	left: 45%;
+	font-size:22px;
+}
+.twTextRight1{
+	top: 59%;
+	left: 39%;
+	font-size:22px;
+}
+.twTitle1{
+	color: #FDE030;
+    font:normal normal normal 22px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: #029B7E;
+    padding:1%;
+}
+.twfanhuibtn{
+	margin:3% 12%;
+}
+.deer{
+	margin-top: 80%;
+}
+.deer1{
+	margin-top: 40%;
+}
+.deer2{
+	margin-top: 20%;
+}
+}

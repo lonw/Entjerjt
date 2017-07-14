@@ -1,0 +1,22 @@
+.padding_top_40
+{
+    padding-top: 40px !important;
+}
+
+.top_mar_30
+{
+	margin-top: 30px; 
+}
+.top_mar_10
+{
+	margin-top: 10px; 
+}
+
+.top_mar_20
+{
+	margin-top: 20px; 
+}
+.modal-backdrop
+{
+	z-index:-100;
+}

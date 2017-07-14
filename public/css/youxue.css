@@ -1,0 +1,976 @@
+ul.orderlist li{
+  list-style-type:decimal;
+  list-style-position: inside;
+}
+/* 游学／留学 */
+#youxueBackground{
+  position: fixed;
+  z-index: -1000;
+  top: 0;
+  width:100%;
+}
+#youxueBackground img{
+  width:100%;
+  height:100%;
+  opacity: .3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.youxueContent{
+  width:70%;
+  margin:0 auto;
+}
+.youxue1{
+  background-color:rgb(255, 251, 241);
+  margin-top:0.5%;
+  overflow: hidden;
+}
+.youxue1 img{
+  width:100%;
+  height:auto;
+}
+.youxue1L{
+  width:69%;
+}
+.youxue1R{
+  width:31%;
+}
+#bookLogo{
+  width:50%;
+  height:auto;
+  margin: 25% 25% 3%;
+}
+.bookLine {
+  width:30%;
+  margin-left: 35%;
+  border-bottom: 2px solid rgba(253, 224, 48, 1);
+  height: 0 !important;
+  min-height: 0 !important;
+}
+
+.youxue2{
+  margin-top:5%;
+  overflow: hidden;
+}
+.youxue{
+  width:50%;
+  background-color:rgba(255,255,255,0.5);
+  position:relative;
+}
+
+.titleText{
+  position: absolute; 
+  color: #000; 
+}
+
+.detailInfo{
+  position: absolute;
+  right:10%;
+  bottom:10%; 
+  background-color: rgb(250, 107, 107);
+  text-align: center;
+}
+.infoText{
+  color:#FFF;
+}
+
+
+/*交换生*/
+#exchangeBackground{
+  position: fixed;
+  z-index: -1000;
+  top: 0;
+  width:100%;
+}
+#exchangeBackground img{
+  width:100%;
+  height:100%;
+  opacity: .7;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.exchanegStudent{
+  width:80%;
+  margin:0 auto;
+  background-color: rgba(255,255,255,0.8);
+  color:#333;
+}
+.exchangeContent{
+  padding:3% 2%;
+}
+.blueLine{
+  width: 104%;
+  margin: 1.5% -2%;
+  height: 0 !important;
+  min-height: 0 !important;
+}
+.exchangeButton{
+  border: 1px solid red; 
+  text-align: center;  
+  margin:1% 5%;
+}
+.exchangeButton:hover{
+  background-color:rgb(242, 121, 121);
+}
+.exchangeButton a{
+  color:#FF6161;
+  font-weight: 600;
+}
+.exchangeButton a:hover{
+  color:#FFF;
+}
+
+
+/*订购*/
+#dinggoutext textarea{
+  background: url(/images/youxue/exchange/dashLine.png);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 140px;
+  font: normal 14px verdana;
+  line-height: 46px;
+  padding: 0 3%;
+  border: none;
+}
+
+/*summerCamp*/
+#summerCampBackground{
+  position: fixed;
+  z-index: -1000;
+  top: 0;
+  width:100%;
+}
+#summerCampBackground img{
+  width:100%;
+  height:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.scContent{
+  width:70%;
+  margin:0 auto;
+  background-color: rgba(245, 245, 249,.8);
+}
+.sc1{
+  background-color:rgb(253, 224, 48);
+  overflow: hidden;
+}
+.sc1 img{
+  width:100%;
+  height:auto;
+}
+.smile{
+  fill: #262626;
+  fill-opacity: 1;
+  stroke: rgba(38, 38, 38, 1);
+  stroke-width: 1px;
+  padding: 15% 30% 0;
+}
+.youxueLine{
+  width:30%;
+  margin-left: 33%;
+  margin-top: -15%;
+  border-bottom: 2px solid rgba(253, 255, 255, 1);
+  height: 0 !important;
+  min-height: 0 !important;
+}
+.scSection{
+  color:#333;
+  border-bottom: 1px solid #000;
+}
+ul.unOrderedList li{
+  list-style-type: disc;
+  list-style-position: outside;
+}
+.sectionImg{
+  margin-left:3%;
+  margin-top:4%;
+  margin-bottom: 4%;
+  width:40%;
+  position:relative;
+}
+.lable{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #029B7E;
+    color: #FDE030;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid rgba(186, 218, 85, 1);
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+.textSection{
+  margin-top:3%;
+  margin-right:3%;
+  width:48%;
+  font-weight:bold;
+  margin-bottom: 3%;
+}
+.scDetail{
+  padding: 0.5vw 3.5vw;
+  background: linear-gradient(#aac4da, #3573a8);  
+  border-radius: 5px;
+  transition: border-color 0.4s ease 0s, background 0.4s ease 0s;
+  color: white;
+  cursor: pointer;
+ 
+  text-align: center;
+  
+  float:right;
+  margin-top: 4%;
+  border-radius: 5px;
+  
+}
+.scDetail:hover{
+  color: white;
+ background: linear-gradient(#718ba5, #113c68);
+}
+.detailLink{
+  font-size: 2vh;
+  color: #FFF;
+}
+
+.detailLink:hover{
+  text-decoration: none;
+  color:#FFF;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  .youxue2{
+    height:90px;
+  }
+  .youxue{
+    height:90px;
+  }
+  .bookText{
+    font:normal normal normal 7px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:27%;
+    letter-spacing:0.1em;
+  }
+  .youxueIntro{
+    font:normal normal normal 6px raleway,sans-serif;
+    color: #333333;
+    padding:1.5% 3%;
+  }
+  .titleText{
+    font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; 
+    letter-spacing:0.1em;
+    font-size: 20px;
+    font-weight:400;
+    left:15%;
+    top:15%;
+  }
+  .detailInfo{
+    width: 60px;
+    height: 20px;
+  }
+  .detailInfo:hover{
+    background-color: rgb(242, 121, 121);
+  }
+  .infoText{
+    font:normal normal normal 9px bree-w01-thin-oblique,sans-serif;
+    line-height: 20px;
+  }
+  .infoText:hover{
+    text-decoration: none;
+    color:#FFF; 
+  }
+
+   /*exchange page*/
+  .exchangeTitle{
+    font:normal normal normal 20px raleway,sans-serif;
+  }
+  .blueLine{
+    border-bottom: 8px solid rgb(43, 108, 163);
+  }
+  .exchangeContent1{
+    font:normal normal normal 13px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchangeContetn2{
+    font:normal normal normal 13px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchanegContent3{
+    font:italic normal normal 17px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+  }
+  .exchangeContent4{
+    font:italic normal normal 17px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+    margin-top: 3%;
+  }
+  .exchangeContent5{
+    font:normal normal normal 13px raleway,sans-serif;
+    margin-bottom: 3%;
+    padding-left:2%;
+    word-wrap: break-word;
+  }
+  .exchangeButton{
+    font-size: 20px;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+  }
+    /*订购*/
+  .dinggouInfo{
+    font:normal normal normal 30px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+    margin:2%;
+    font-weight:600;
+  }
+  .dinggouinput{
+    width:100%;
+    font:normal normal normal 17px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+  }
+  .dinggouCount{
+    font:normal normal normal 17px raleway,sans-serif;
+    color:#333;
+    margin:1% 7% 5%;
+  }
+  /*summerCamp*/
+  .youxueText{
+    font:normal normal normal 7px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:38%; 
+    padding-top:4%;
+    letter-spacing:0.1em;
+  }
+  .scInfo{
+    font:normal normal normal 6px raleway,sans-serif;
+    color: #333333;
+    padding:6% 9%;
+  }
+
+  /*summerCamp*/
+  .youxueLine {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 8%;
+  }
+  .youxueText{
+    font:normal normal normal 15px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left: 30%;
+    padding-top: 2%;
+    letter-spacing:0.1em;
+  }
+  .scInfo{
+    font:normal normal normal 6px raleway,sans-serif;
+    color: #333333;
+    padding:4% 5% 0;
+  }
+  .scTitle{
+    color: #FDE030;
+    font:normal normal normal 20px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: rgb(0, 108, 109);
+    padding:1%;
+  }
+  .scDetail {
+    
+  }
+  .detailLink {
+    font-size: 1.4vw;
+  }
+  .unOrderedList{
+    font:normal normal normal 6px raleway,sans-serif;
+  }
+  .textSection2{
+    font: italic normal normal 7px georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin-left: -4%;
+  }
+  .lable{
+    font: normal normal normal 10px raleway,sans-serif;
+  }    
+  .qidai{
+    font:normal normal normal 15px raleway,sans-serif;
+  }
+  .scinfoTitle{
+    font: normal normal normal 15px raleway,sans-serif;
+    margin-top: 3%;
+    margin-left:3%;
+  }
+  .scinfoContent{
+    font: normal normal normal 10px raleway,sans-serif;
+    margin: 0 3%;
+  }
+  .sectionImg {
+    margin-top: 10%;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+  .youxue2{
+    height:130px;
+  }
+  .youxue{
+    height:130px;
+  }
+  .bookText{
+    font:normal normal normal 12px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:27%;
+    letter-spacing:0.1em;
+  }
+  .youxueIntro{
+    font:normal normal normal 9px raleway,sans-serif;
+    color: #333333;
+    padding:1.5% 3%;
+  }
+  .titleText{
+    font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; 
+    letter-spacing:0.1em;
+    font-size: 30px;
+    font-weight:400;
+    left:15%;
+    top:15%;
+  }
+  .detailInfo{
+    width: 100px;
+    height: 30px;
+  }
+  .infoText{
+    font:normal normal normal 11px bree-w01-thin-oblique,sans-serif;
+    line-height: 30px;
+  }
+    /*exchange page*/
+  .exchangeTitle{
+    font:normal normal normal 28px raleway,sans-serif;
+  }
+  .blueLine{
+    border-bottom: 7px solid rgb(43, 108, 163);
+  }
+  .exchangeContent1{
+    font:normal normal normal 20px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchangeContetn2{
+    font:normal normal normal 18px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchanegContent3{
+    font:italic normal normal 25px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+  }
+  .exchangeContent4{
+    font:italic normal normal 25px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+    margin-top: 3%;
+  }
+  .exchangeContent5{
+    font:normal normal normal 18px raleway,sans-serif;
+    margin-bottom: 3%;
+    padding-left:2%;
+    word-wrap: break-word;
+  }
+  .exchangeButton{
+    font-size:25px;
+    width: 140px; 
+    height:38px; 
+    line-height: 38px;
+  }
+    /*订购*/
+  .dinggouInfo{
+    font:normal normal normal 30px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+    margin:2%;
+    font-weight:600;
+  }
+  .dinggouinput{
+    width:100%;
+    font:normal normal normal 18px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+    margin:2%;
+  }
+  .dinggouCount{
+    font:normal normal normal 17px raleway,sans-serif;
+    color:#333;
+    margin:1% 7% 5%;
+  }
+  /*summerCamp*/
+  .youxueText{
+    font:normal normal normal 12px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:38%; 
+    padding-top:4%;
+    letter-spacing:0.1em;
+  }
+  .scInfo{
+    font:normal normal normal 9px raleway,sans-serif;
+    color: #333333;
+    padding:6% 9%;
+  }
+
+  /*summerCamp*/
+  .youxueText{
+    font:normal normal normal 28px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:33%; 
+    padding-top:4%;
+    letter-spacing:0.1em;
+  }
+  .scInfo{
+    font:normal normal normal 12px raleway,sans-serif;
+    color: #333333;
+    padding:4% 6%;
+  }
+  .scTitle{
+    color: #FDE030;
+    font:normal normal normal 29px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: rgb(0, 108, 109);
+    padding:1%;
+  }
+  .unOrderedList{
+    font:normal normal normal 12px raleway,sans-serif;
+  }
+  .textSection2{
+    font: italic normal normal 13px georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin-left: -4%;
+  }
+  .lable{
+    font: normal normal normal 20px raleway,sans-serif;
+  }    
+  .qidai{
+    font:normal normal normal 25px raleway,sans-serif;
+  }
+  .scinfoTitle{
+    font: normal normal normal 20px raleway,sans-serif;
+    margin-top: 3%;
+    margin-left:3%;
+  }
+  .scinfoContent{
+    font: normal normal normal 15px raleway,sans-serif;
+    margin: 0 3%;
+  }
+  .sectionImg {
+    margin-top: 5%;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 992px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2){
+  .youxue2{
+    height:220px;
+  }
+  .youxue{
+    height:220px;
+  }
+  .bookText{
+    font:normal normal normal 17px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:27%;
+    letter-spacing:0.1em;
+  }
+  .youxueIntro{
+    font:normal normal normal 12px raleway,sans-serif;
+    color: #333333;
+    padding:4% 3%;
+  }
+  .titleText{
+    font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; 
+    letter-spacing:0.1em;
+    font-size: 50px;
+    font-weight:400;
+    left:15%;
+    top:20%;
+  }
+  .detailInfo{
+    width: 150px;
+    height: 40px;
+  }
+  .infoText{
+    font:normal normal normal 15px bree-w01-thin-oblique,sans-serif;
+    line-height: 40px;
+  }
+  /*exchange page*/
+  .exchangeTitle{
+    font:normal normal normal 30px raleway,sans-serif;
+  }
+  .blueLine{
+    border-bottom: 8px solid rgb(43, 108, 163);
+  }
+  .exchangeContent1{
+    font:normal normal normal 20px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchangeContetn2{
+    font:normal normal normal 20px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchanegContent3{
+    font:italic normal normal 27px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+  }
+  .exchangeContent4{
+    font:italic normal normal 27px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+    margin-top: 3%;
+  }
+  .exchangeContent5{
+    font:normal normal normal 20px raleway,sans-serif;
+    margin-bottom: 3%;
+    padding-left:2%;
+    word-wrap: break-word;
+  }
+  .exchangeButton{
+    font-size:25px;
+    width: 140px; 
+    height:38px; 
+    line-height: 38px;
+  }
+    /*订购*/
+  .dinggouInfo{
+    font:normal normal normal 30px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+    margin:2%;
+    font-weight:600;
+  }
+  .dinggouinput{
+    width:100%;
+    font:normal normal normal 23px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+    margin:2%;
+  }
+  .dinggouCount{
+    font:normal normal normal 17px raleway,sans-serif;
+    color:#333;
+    margin:1% 7% 5%;
+  }
+
+  /*summerCamp*/
+  .youxueText{
+    font:normal normal normal 28px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:35%; 
+    padding-top:4%;
+    letter-spacing:0.1em;
+  }
+  .scInfo{
+    font:normal normal normal 12px raleway,sans-serif;
+    color: #333333;
+    padding:4% 6%;
+  }
+  .scTitle{
+    color: #FDE030;
+    font:normal normal normal 29px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: rgb(0, 108, 109);
+    padding:1%;
+  }
+  .unOrderedList{
+    font:normal normal normal 12px raleway,sans-serif;
+  }
+  .textSection2{
+    font: italic normal normal 13px georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin-left: -4%;
+  }
+  .lable{
+    font: normal normal normal 22px raleway,sans-serif;
+  }    
+  .qidai{
+    font:normal normal normal 25px raleway,sans-serif;
+  }
+  .scinfoTitle{
+    font: normal normal normal 25px raleway,sans-serif;
+    margin-top: 3%;
+    margin-left:3%;
+  }
+  .scinfoContent{
+    font: normal normal normal 15px raleway,sans-serif;
+    margin: 0 3%;
+  }
+  .sectionImg {
+    margin-top: 5%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-device-width : 992px) and (max-device-width : 1200px) and (-webkit-min-device-pixel-ratio: 2){
+  .youxue2{
+    height:250px;
+  }
+  .youxue{
+    height:250px;
+  }
+  .bookText{
+    font:normal normal normal 23px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:27%;
+    letter-spacing:0.1em;
+  }
+  .youxueIntro{
+    font:normal normal normal 15px raleway,sans-serif;
+    color: #333333;
+    padding:4% 3%;
+  }
+  .titleText{
+    font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; 
+    letter-spacing:0.1em;
+    font-size: 50px;
+    font-weight:400;
+    left:15%;
+    top:20%;
+  }
+  .detailInfo{
+    width: 150px;
+    height: 40px;
+  }
+  .infoText{
+    font:normal normal normal 15px bree-w01-thin-oblique,sans-serif;
+    line-height: 40px;
+  }
+  /*exchange page*/
+  .exchangeTitle{
+    font:normal normal normal 40px raleway,sans-serif;
+  }
+  .blueLine{
+    border-bottom: 8px solid rgb(43, 108, 163);
+  }
+  .exchangeContent1{
+    font:normal normal normal 25px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchangeContetn2{
+    font:normal normal normal 25px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchanegContent3{
+    font:italic normal normal 35px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+  }
+  .exchangeContent4{
+    font:italic normal normal 35px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+    margin-top: 3%;
+  }
+  .exchangeContent5{
+    font:normal normal normal 25px raleway,sans-serif;
+    margin-bottom: 3%;
+    padding-left:2%;
+    word-wrap: break-word;
+  }
+  .exchangeButton{
+    font-size:25px;
+    width: 140px; 
+    height:38px; 
+    line-height: 38px;
+  }
+  /*订购*/
+  .dinggouInfo{
+    font:normal normal normal 30px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+    margin:2%;
+    font-weight:600;
+  }
+  .dinggouinput{
+    width:100%;
+    font:normal normal normal 20px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+    margin:2%;
+  }
+  .dinggouCount{
+    font:normal normal normal 17px raleway,sans-serif;
+    color:#333;
+    margin:1% 7% 5%;
+  }
+
+  /*summerCamp*/
+  .youxueText{
+    font:normal normal normal 28px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:38%; 
+    padding-top:4%;
+    letter-spacing:0.1em;
+  }
+  .scInfo{
+    font:normal normal normal 16px raleway,sans-serif;
+    color: #333333;
+    padding:4% 6%;
+  }
+  .scTitle{
+    color: #FDE030;
+    font:normal normal normal 29px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: rgb(0, 108, 109);
+    padding:1%;
+  }
+  .unOrderedList{
+    font:normal normal normal 16px raleway,sans-serif;
+  }
+  .textSection2{
+    font: italic normal normal 17px georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin-left: -4%;
+  }
+  .lable{
+    font: normal normal normal 28px raleway,sans-serif;
+  }    
+  .qidai{
+    font:normal normal normal 25px raleway,sans-serif;
+  }
+  .scinfoTitle{
+    font: normal normal normal 32px raleway,sans-serif;
+    margin-top: 3%;
+    margin-left:3%;
+  }
+  .scinfoContent{
+    font: normal normal normal 20px raleway,sans-serif;
+    margin: 0 3%;
+  }
+  .sectionImg {
+    margin-top: 4%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-device-width : 1200px) {
+  .youxue2{
+    height:290px;
+  }
+  .youxue{
+    height:290px;
+  }
+  .bookText{
+    font:normal normal normal 28px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:27%;
+    letter-spacing:0.1em;
+  }
+  .youxueIntro{
+    font:normal normal normal 20px raleway,sans-serif;
+    color: #333333;
+    padding:4% 3%;
+  }
+  .titleText{
+    font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; 
+    letter-spacing:0.1em;
+    font-size: 70px;
+    font-weight:400;
+    left:15%;
+    top:20%;
+  }
+  .detailInfo{
+    width: 150px;
+    height: 40px;
+  }
+  .infoText{
+    font:normal normal normal 15px bree-w01-thin-oblique,sans-serif;
+    line-height: 40px;
+  }
+
+  /*exchange page*/
+  .exchangeTitle{
+    font:normal normal normal 40px raleway,sans-serif;
+  }
+  .blueLine{
+    border-bottom: 8px solid rgb(43, 108, 163);
+  }
+  .exchangeContent1{
+    font:normal normal normal 25px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchangeContetn2{
+    font:normal normal normal 25px raleway,sans-serif;
+    padding-left: 2%; 
+  }
+  .exchanegContent3{
+    font:italic normal normal 35px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+  }
+  .exchangeContent4{
+    font:italic normal normal 35px georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-style: normal;
+    margin-top: 3%;
+  }
+  .exchangeContent5{
+    font:normal normal normal 25px raleway,sans-serif;
+    margin-bottom: 3%;
+    padding-left:2%;
+    word-wrap: break-word;
+  }
+  .exchangeButton{
+    font-size:25px;
+    width: 140px; 
+    height:38px; 
+    line-height: 38px;
+  }
+  /*订购*/
+  .dinggouInfo{
+    font:normal normal normal 30px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+    margin:2%;
+    font-weight:600;
+  }
+  .dinggouinput{
+    width:100%;
+    font:normal normal normal 20px georgia,palatino,'book antiqua','palatino linotype',serif;
+    color:#333;
+    margin:2%;
+  }
+  .dinggouCount{
+    font:normal normal normal 17px raleway,sans-serif;
+    color:#333;
+    margin:1% 7% 5%;
+  }
+
+  /*summerCamp*/
+  .youxueText{
+    font:normal normal normal 28px raleway,sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left:38%; 
+    padding-top:4%;
+    letter-spacing:0.1em;
+  }
+  .scInfo{
+    font:normal normal normal 20px raleway,sans-serif;
+    color: #333333;
+    padding:4% 6%;
+  }
+  .scTitle{
+    color: #FDE030;
+    font:normal normal normal 29px georgia,palatino,'book antiqua','palatino linotype',serif;
+    background-color: rgb(0, 108, 109);
+    padding:1%;
+  }
+  .unOrderedList{
+    font:normal normal normal 20px raleway,sans-serif;
+  }
+  .textSection2{
+    font: italic normal normal 21px georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin-left: -4%;
+  }
+  .lable{
+    font: normal normal normal 30px raleway,sans-serif;
+  }    
+  .qidai{
+    font:normal normal normal 25px raleway,sans-serif;
+  }
+  .scinfoTitle{
+    font: normal normal normal 32px raleway,sans-serif;
+    margin-top: 3%;
+    margin-left:3%;
+  }
+  .scinfoContent{
+    font: normal normal normal 20px raleway,sans-serif;
+    margin: 0 3%;
+  }
+  .sectionImg {
+    margin-top: 4%;
+  }
+}
