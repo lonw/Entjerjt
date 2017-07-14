@@ -6,15 +6,15 @@
     <div class="slideshow-container">
 
     <a href="shengtai_National"><div class="mySlides fade " style="text-align: center;background-image: url(/images/main_page/大滚屏/1.png);background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;z-index: 200">
-     
+
     </div></a>
 
     <div class="mySlides fade" style="text-align: center;background-image: url(/images/main_page/大滚屏/2.png);background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;">
-      
+
     </div>
 
     <a href="jiatu" ><div class="mySlides fade" style="text-align: center;background-image: url(/images/main_page/大滚屏/3.png);background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;">
-     
+
     </div></a>
 
     <a class="prev" onclick="plusSlides(-1)" ></a>
@@ -24,9 +24,9 @@
     <br>
 
     <div style="text-align:center;position: relative;bottom: 15%;">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
 </div>
@@ -36,11 +36,11 @@
     <div class="container" style="">
       <div class="row" style="margin-top: 8px;">
             <div class="col-md-4 col-sm-5 col-lg-3 col-xs-8" style="float: right;">
-            
-                
+
+
                 <div class="form-group">
                     <div class="input-group input-group-md">
-                        
+
                         <div class="icon-addon addon-md addon-sm addon-xs">
                             <input type="text"  class="form-control search-query" placeholder="Search Site">
                             <label class="glyphicon glyphicon-search" rel="tooltip" ></label>
@@ -50,21 +50,21 @@
                         </span>
                     </div>
                 </div>
-                
+
             </div>
       </div>
-    </div>    
+    </div>
   </div>
 </div>
 <div >
   <div class="remenTitle" >热门推荐</div>
-  <div id="carousel1" style="width: 90%"> 
-   
-   
+  <div id="carousel1" style="width: 90%">
+
+
     <a   ><img class="cloudcarousel"  src="/images/main_page/remen/remen-1.jpg"></a>
 
     <a href='shangwu_meeting'   ><img class="cloudcarousel"  src="/images/main_page/remen/remen-2.jpg"></a>
-    
+
     <a   ><img class="cloudcarousel"  src="/images/main_page/remen/remen-3.jpg"></a>
 
     <a   ><img class="cloudcarousel"  src="/images/main_page/remen/remen-4.jpg"></a>
@@ -73,12 +73,12 @@
 
     <a href='huaxia_jiangnan'  ><img class="cloudcarousel"  src="/images/main_page/remen/remen-6.jpg"></a>
     <a href='tanxian_zhulu'  ><img class="cloudcarousel"  src="/images/main_page/remen/remen-7.jpg"></a>
-    
+
     <div id="but1" class="carouselLeft"></div>
-    <div id="but2" class="carouselRight"></div> 
+    <div id="but2" class="carouselRight"></div>
 
   </div>
-  
+
 </div>
 
 
@@ -103,8 +103,8 @@
         </svg>
       </div>
     </div>
-  
-    
+
+
     <div class="" style="margin-top: 5vh;">
       <a href="javascript:" onclick="scrollTo('cont1')" target="_self"><div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 teseOption "><div><img src="/images/main_page/topics/yangshen.png" ></div><p>养 生 游</p></div></a>
 
@@ -133,7 +133,7 @@
       <div style='clear: both'></div>
     </div>
     <div style='clear: both'></div>
-    
+
       <a href="javascript:" onclick="scrollTo('cont3')" target="_self"><div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 teseOption">
         <div><img src="https://static.wixstatic.com/media/bfb291_e0df7becd1fd4480a938ff0e6d19f418~mv2.png/v1/fill/w_204,h_116,al_c,usm_0.66_1.00_0.01/bfb291_e0df7becd1fd4480a938ff0e6d19f418~mv2.png" ></div><p>游学 留学</p>
       </div></a>
@@ -151,11 +151,11 @@
             </g>
           </svg></div><p>自 由 行</p>
       </div></a>
-    
+
     <div style='clear: both'></div>
   </div>
   <div style='clear: both'></div>
-    
+
 </div>
 
 
@@ -173,12 +173,12 @@
         </div>
         </div>
         <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">养&nbsp&nbsp生&nbsp&nbsp游
-          
+
           <a class="more" style="position: absolute;right: -10px;bottom: 30%;line-height: normal;font-weight: bold;" href="yangshen" >更多详情</a>
         </div>
-        
-        
-        
+
+
+
         <div style='clear: both'></div>
     </div>
     <div class="teseContent" >
@@ -202,12 +202,12 @@
         </div>
         <div style='clear: both'></div>
       </div>
-        
+
         <div style='clear: both'></div>
     </div>
     <div style='clear: both'></div>
   </div>
-</div> 
+</div>
 
 
 
@@ -222,18 +222,18 @@
                 <path d="M350.037 214.333h-99.034V8.447c16.94 97.301 99.034 205.886 99.034 205.886z"></path>
                 <path d="M166.212 184.349c-13.109-3.427-24.394-19.533-24.394-19.533-10.164-9.995 7.115-7.818 7.115-7.818 19.546.43 10.79-14.178 10.79-14.178l-17.813-19.181c-3.909-4.782 1.303-4.926 1.303-4.926 9.995 1.095 6.958-7.649 6.958-7.649l-28.225-60.372-.222-.104-28.589 62.044s3.249 3.524 5.38 9.203c0 0 2.522 5.317-.576 9.669 0 0-1.908 2.73-4.374 3.108-1.618.248-2.417.46-.46 2.187 7.827 6.79 7.79 6.57 13.237 12.086 0 0 3.942 4.045 3.338 8.978-.5 4.083-2.794 9.794-12.086 9.669 0 0-4.029-.691-4.145 1.598-.084 1.647 13.615 11.417 14.734 12.33 0 0 3.146 2.29 9.093 6.1 3.131 2.006 5.465 3.893 6.1 4.604 0 0 3.759 5.247-.115 10.129-2.343 2.953-6.977 2.128-6.977 4.851l.501 8.492h11.728v-13.031l25.228.208c-5.16 7.388-8.288 11.519-8.288 11.519h99.034V8.447c-11.466 65.857-52.774 136.875-78.275 175.902z"></path>
                 <path d="M112.486 191.321c5.46 2.372 8.027 4.73 7.011 6.685-1.394 2.697-9.643 4.6-26.557 4.6H69.928l.43 11.728H59.022l.43-11.728H36.425c-29.098 0-32.577-5.642-19.546-11.285 13.031-5.655 28.316-23.025 28.316-23.025 6.594-6.515-12.679-6.072-12.679-6.072-11.728-.43-5.655-9.539-5.655-9.539l18.673-17.787c6.085-4.769-2.619-3.857-2.619-3.857-12.588 0-6.111-9.877-6.111-9.877l27.873-48.318 27.873 48.318s6.489 9.877-6.098 9.877c0 0-8.705-.912-2.619 3.857l18.673 17.787s1.968 2.958 1.499 5.59c-.352 1.981-2.111 3.766-7.154 3.948 0 0-19.273-.443-12.679 6.072-.002.001 15.283 17.371 28.314 23.026z"></path>
-                </g>            
+                </g>
             </svg>
         </div>
         </div>
-        
+
         <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">
           探&nbsp&nbsp险&nbsp&nbsp游
           <a class="more" href="tanxian" style="position: absolute;right: -10px;bottom: 30%;line-height: normal;font-weight: bold;">更多详情</a>
         </div>
-        
-        
-        
+
+
+
         <div style='clear: both'></div>
     </div>
     <div class="teseContent">
@@ -261,7 +261,7 @@
       </div>
         <div style='clear: both'></div>
     </div>
-    <div style='clear: both'></div>  
+    <div style='clear: both'></div>
   </div>
 </div>
 
@@ -275,14 +275,14 @@
             <img src="https://static.wixstatic.com/media/bfb291_e0df7becd1fd4480a938ff0e6d19f418~mv2.png/v1/fill/w_204,h_116,al_c,usm_0.66_1.00_0.01/bfb291_e0df7becd1fd4480a938ff0e6d19f418~mv2.png" style="width: 80%;position: absolute;top:2.5vw;left: 1vw;">
         </div>
       </div>
-        
-       
 
-       
-        <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">旅游 <b>&#183;</b> 留学
+
+
+
+        <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">旅学 <b>&#183;</b> 留学
           <a class="more" href="#" style="position: absolute;right: -10px;bottom: 30%;line-height: normal;font-weight: bold;">更多详情</a>
         </div>
-      
+
       <div style='clear: both'></div>
     </div>
     <div class="teseContent">
@@ -324,12 +324,12 @@
             <img id="comp-ix6vqg79imgimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$cs8q.1.$comp-ixat975o.0.$comp-ix6vqg79.0.0.$image" src="https://static.wixstatic.com/media/bfb291_32476da3b2d443d5bfc0f9fa5e2c3592~mv2.png/v1/fill/w_176,h_174,al_c,usm_0.66_1.00_0.01/bfb291_32476da3b2d443d5bfc0f9fa5e2c3592~mv2.png" style="width: 70%;position: absolute;top:1vw;left: 1.5vw;">
         </div>
       </div>
-      
-        
+
+
         <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">医&nbsp&nbsp&nbsp&nbsp游
           <a class="more" href="yiyou" style="position: absolute;right: -10px;bottom: 30%;line-height: normal;font-weight: bold;">更多详情</a>
         </div>
-      
+
       <div style='clear: both'></div>
     </div>
     <div class="teseContent">
@@ -367,16 +367,16 @@
   <div class="teseContainer" >
     <div class="subTitle" >
       <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
-         <div class="subTitleImg" style="background-color: #ffe17f;float: right"> 
+         <div class="subTitleImg" style="background-color: #ffe17f;float: right">
             <img id="comp-ix2nvif8imgimage" alt="" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$cs8q.1.$comp-ixatcqr2.0.$comp-ix2nvif8.0.0.$image" src="https://static.wixstatic.com/media/bfb291_93c057b00faf4c8db55bf03ebe1362e2~mv2.png/v1/fill/w_230,h_144,al_c,usm_0.66_1.00_0.01/bfb291_93c057b00faf4c8db55bf03ebe1362e2~mv2.png" style="width: 80%;position: absolute;top:3vw;left: 1.2vw;">
         </div>
       </div>
-       
-      
+
+
       <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">华夏精品
           <a class="more" href="#" style="position: absolute;right: -10px;bottom: 30%;line-height: normal;font-weight: bold;">更多详情</a>
       </div>
-      
+
       <div style='clear: both'></div>
     </div>
     <div class="teseContent">
@@ -427,11 +427,11 @@
             </svg>
         </div>
       </div>
-     
+
       <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">商&nbsp&nbsp务&nbsp&nbsp团
           <a class="more" href="shangwu" style="position: absolute;right: -10px;bottom: 30%;line-height: normal;font-weight: bold;">更多详情</a>
       </div>
-      
+
       <div style='clear: both'></div>
     </div>
     <div class="teseContent">
@@ -510,7 +510,7 @@
     <div style='clear: both'></div>
 </div>
 </div>
-<div class="popWrapper"> 
+<div class="popWrapper">
   <div class="popshow"></div>
   <div id="popup" class="pop1">
     <ul class="r_nav">
@@ -543,15 +543,15 @@ var slideIndex_auto = 0;
 showSlidesAuto();
 
 $(document).ready(function(){
-    var width= $("#carousel1").width()*0.45; 
+    var width= $("#carousel1").width()*0.45;
   // 这初始化容器中指定的元素，在这种情况下，旋转木马.
-  $("#carousel1").CloudCarousel({     
+  $("#carousel1").CloudCarousel({
     xPos:width,
     yPos:0,
     buttonLeft: $('#but1'),
     buttonRight: $('#but2'),
     altBox: $("#alt-text"),
-    titleBox: $("#title-text"),       
+    titleBox: $("#title-text"),
     FPS:30,
     reflHeight:0,
     reflGap:0,
@@ -608,14 +608,14 @@ $(document).ready(function(){
         var t=self.offsetTop[self.n];
         $('html,body').animate({scrollTop:t},500,function(){//   滚动条滚动 页面不同内容的offsetTop值实现按钮对应效果
           self.scrolltype=true;
-          $(self.n).addClass('cur').parent().siblings().children().removeClass('cur'); 
-        }); 
+          $(self.n).addClass('cur').parent().siblings().children().removeClass('cur');
+        });
       });
     };
     return navObj;
   })(window.navObj || {});
   nav.init();
-  
+
 });
 
 function plusSlides(n) {
@@ -630,15 +630,15 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   slideIndex_auto = n;
   clearTimeout(myVar);
@@ -650,18 +650,18 @@ function showSlidesAuto() {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+       slides[i].style.display = "none";
     }
     slideIndex_auto++;
-    if (slideIndex_auto> slides.length) {slideIndex_auto = 1}    
+    if (slideIndex_auto> slides.length) {slideIndex_auto = 1}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex_auto-1].style.display = "block";  
+    slides[slideIndex_auto-1].style.display = "block";
     dots[slideIndex_auto-1].className += " active";
     clearTimeout(myVar);
     myVar = setTimeout(showSlidesAuto, 3000); // Change image every 2 seconds
-    
+
 }
  function scrollTo(loc) {
         $('html,body').animate({scrollTop: $("."+loc).offset().top},500);
