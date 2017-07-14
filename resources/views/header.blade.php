@@ -21,11 +21,12 @@
                     <li><a href="huaxia">华夏精品</a></li>
                     <li><a href="shengtai">生态游</a></li>
                     <li><a href="about">关于迦途</a></li>
-                    <li><a >自由行</a></li>
+                    <li><a >登录</a></li>
+                    <!-- <li><a >自由行</a></li>
                     <li><a >亲子游</a></li>
                     <li><a >婚礼策划</a></li>
-                    <li><a >住宿／机票</a></li>
-                    <li><a >登录</a></li>
+                    <li><a >住宿／机票</a></li> -->
+
                 </ul>
             </div>
         </nav>
