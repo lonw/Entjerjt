@@ -15,16 +15,16 @@
       </div>
       <div class="col-md-4 col-sm-4 col-lg-4 paddingtop-bottom">
         <h6 class="logofooter">&#8203;关注我们</h6>
-        
+
           <p>公众微信: </p>
           <p>公众微博: </p>
           <p style="font-family: Arial, Helvetica, sans-serif"><bold>Facebook:</bold> </p>
           <p style="font-family: Arial, Helvetica, sans-serif"><bold>Twitter:  </bold></p>
           <p style="font-family: Arial, Helvetica, sans-serif"><bold>Instagram: </bold></p>
-        
+
       </div>
       <div class="col-md-4 col-sm-4 col-lg-4 paddingtop-bottom" >
-        
+
         <div class="footer_email">
           <div class="email-wrapper">
             <h4 class="email_header" style="padding-top: 20px">订阅我们</h4>
@@ -36,10 +36,9 @@
           </div>
         </div>
       </div>
-      
+  
     </div>
   </div>
 </footer>
 
 <!--footer start from here-->
-

@@ -20,8 +20,6 @@
 </div>
 <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
   <div class="container-fluid">
-
-
     <div class="comWrapper" style="width:80%; padding-top: 7%; width: 980px;  height: 680px;">
         <div  style="font-size: 2vh;line-height: 2;">&nbsp;&nbsp;&nbsp;&nbsp;迦途国际（加拿大）有限公司，是一家以加拿大优质生态资源、人文历史与开放的商业环境为平台。结合中加两国人文互动、经济经贸发展的新趋势，集文化交流、新型旅游、教育、医疗养老、休闲养生、居家置业、现代物流、经贸交流、商业策划等领域为一体的综合性跨国集团公司。
    <br> &nbsp;&nbsp;&nbsp;&nbsp;公司总部位于多伦多，在中国上海、广州、香港及日本、韩国等国家和地区常设分支机构。改组前为成立于九十年代初期的加拿大富尔杰经贸集团。公司董事长兼CEO Mr. Jeff Zhou是中国改革开放初期，对外交流与经贸合作的见证和实践者。精通中西方文化和世界经济,并擅长于现代商业管理、营销与战略合作等领域。
