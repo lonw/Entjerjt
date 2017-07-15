@@ -7,9 +7,9 @@
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hidden-xs">
 
-<div class="" style="float:right;margin-top:23%;">
+<div class="" style="float:right;margin-top:13%;">
   <div class="btn-group-vertical">
     <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">关于迦途</button><br>
     <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">迦途文化</button><br>
