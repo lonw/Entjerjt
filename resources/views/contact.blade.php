@@ -16,7 +16,11 @@
     <a href="mission" type="button" class="btn btn-primary btn-lg hidden-sm" style="background-color: rgba(0, 108, 109, 1);">迦途使命</a><p></p>
     <a href="concept" type="button" class="btn btn-primary btn-lg hidden-sm" style="background-color: rgba(0, 108, 109, 1);">核心理念</a><p></p>
     <a href="contact" type="button" class="btn btn-primary btn-lg hidden-sm" style="background-color: rgba(0, 108, 109, 1);">联系我们</a>
+  <br>
+  <img class="img-responsive" src="https://static.wixstatic.com/media/bfb291_091992e1e3e749e79ecb276db67a3f92~mv2.png/v1/fill/w_300,h_270,al_c,lg_1/bfb291_091992e1e3e749e79ecb276db67a3f92~mv2.png" alt="">
+  <div style="width: 680px;position: absolute;le;left: -234px;top: 441px;" class="txtNew" id="comp-iun9yu7j" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$oqwn4_DESKTOP.$inlineContent.$comp-iun9zycs.$inlineContent.$comp-iun9yu7j"><h2 class="font_2" style="font-size:62px; text-align:center;"><span style="color:#FFFFFF;"><span style="text-shadow:rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;"><span style="font-size:62px;"><span style="letter-spacing:-0.04em;"><span style="font-family:bodoni-w01-poster,bodoni-poster-w10,fantasy;">Who &nbsp; &nbsp;am &nbsp; &nbsp;I</span></span></span></span></span></h2>
   </div>
+</div>
 </div>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" style="float:right;">
