@@ -22,7 +22,7 @@
                     <li><a href="shengtai">生态游</a></li>
                     <li><a href="about">关于迦途</a></li>
                     @if(Auth::check())
-                  <li><a href="#">订单详情</a></li>
+                  <li><a href="profile">订单详情</a></li>
                   <li role="separator" class="divider"></li>
                   <li><a href="{{route('logout')}}">注销</a></li>
                 @else
