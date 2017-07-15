@@ -2,9 +2,10 @@
 
 @section('content')
 @include('header')
-<div class="row">
-  <div class="col-md-4 col-md-offset-4">
-    <h1>注册账号</h1>
+<div class="row" style="height:505px;">
+  <div class="col-md-4 col-md-offset-4"><br><br>
+    <h1 style="box-shadow: none;">注册账号</h1>
+    <hr>
     @if(count($errors)>0)
     <div class="alert alert-danger">
       @foreach($errors->all() as $error)
