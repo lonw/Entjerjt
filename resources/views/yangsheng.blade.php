@@ -22,17 +22,17 @@
   <div style="margin-bottom: 3vw">
     <div class="row" style="width:80%">
       <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
-        <img src="/images/yangsheng/fengmian/1.jpg" style="width: 100%;width: 436px;">
+        <img src="/images/yangsheng/fengmian/1.jpg" style="width: 100%;width: 436px;border-radius: 20px;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);border: 2px solid rgba(255, 255, 255, 1);">
       </div>
       <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
         <h2 style="font-size: 7vh"><span style="font-size: 8vh">何</span>为养生游</h2>
         <a class="btn btn-info btn-lg" href="">点击详情</a>
       </div>
     </div>
-    <br>
+    <br><br>
     <div class="row" style="width:80%">
       <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
-        <img src="/images/yangsheng/fengmian/2.jpg" style="width: 100%;width: 436px;">
+        <img src="/images/yangsheng/fengmian/2.jpg" style="width: 100%;width: 436px;border-radius: 20px;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);border: 2px solid rgba(255, 255, 255, 1);">
       </div>
       <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
         <h2 style="font-size: 7vh"><span style="font-size: 8vh">迦</span>途养生基地</h2>
@@ -96,31 +96,31 @@
   <div style='clear: both'></div>
 </div>
 <div class="container">
-
+<h2 style="background-color:rgba(253, 224, 48, 1);"><b>周边设施</b></h2>
 <div style="padding:2vw ">
-  <div><span>最古老自然保护区</span><a href="" style="float: right;">详情</a></div>
-  <div class="row" style="height: 50vh;">
-  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="background-image: url(/images/yangsheng/fengmian/17.jpg);background-size: cover;background-repeat: no-repeat;height: 100%"></div>
-  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="background-image: url(/images/yangsheng/fengmian/1.jpg);background-size: cover;background-repeat: no-repeat;height: 100%"></div>
-  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="background-image: url(/images/yangsheng/fengmian/13.jpg);background-size: cover;background-repeat: no-repeat;height: 100%"></div>
+  <div><h5 style="font-size: 3vh"><span style="font-size: 5vh">最</span>古老自然保护区</h5><a href="" class="btn btn-primary btn-lg" style="float: right;">详情</a></div>
+  <div class="row" style="height: 26vh">
+  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 img-responsive" style="background-image: url(https://static.wixstatic.com/media/bfb291_4dacbede902c486f894052eb46f67758~mv2.jpg/v1/fill/w_400,h_260,al_c,q_80,usm_0.66_1.00_0.01/bfb291_4dacbede902c486f894052eb46f67758~mv2.webp);background-repeat: no-repeat;height: 100%"></div>
+  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 img-responsive" style="background-image: url(https://static.wixstatic.com/media/bfb291_8db83ed303a4401eb8a231e24d7b2a77~mv2.jpg/v1/fill/w_400,h_260,al_c,q_80,usm_0.66_1.00_0.01/bfb291_8db83ed303a4401eb8a231e24d7b2a77~mv2.webp);background-repeat: no-repeat;height: 100%"></div>
+  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 img-responsive" style="background-image: url(https://static.wixstatic.com/media/bfb291_c1887e7a3938403ab2e8758386e7a90c~mv2.jpg/v1/fill/w_400,h_260,al_c,q_80,usm_0.66_1.00_0.01/bfb291_c1887e7a3938403ab2e8758386e7a90c~mv2.webp);background-repeat: no-repeat;height: 100%"></div>
   </div>
 </div>
 
 <div style="padding:2vw ">
-  <div><span>世界级高尔夫球场地</span><a href="" style="float: right;">详情</a></div>
-  <div class="row" style="height: 50vh;">
-  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="background-image: url(/images/yangsheng/fengmian/3.jpg);background-size: cover;background-repeat: no-repeat;height: 100%"></div>
-  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="background-image: url(/images/yangsheng/fengmian/4.jpg);background-size: cover;background-repeat: no-repeat;height: 100%"></div>
-  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="background-image: url(/images/yangsheng/fengmian/5.jpg);background-size: cover;background-repeat: no-repeat;height: 100%"></div>
+  <div><h5 style="font-size: 3vh"><span style="font-size: 5vh">世界级</span>高尔夫球场地</span></h5><a href="" class="btn btn-primary btn-lg"  style="float: right;">详情</a></div>
+  <div class="row" style="height: 26vh">
+  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 img-responsive" style="background-image: url(https://static.wixstatic.com/media/bfb291_87d737ad5b3b4841b4c98af102b6f2bc~mv2.jpg/v1/fill/w_400,h_260,al_c,q_80,usm_0.66_1.00_0.01/bfb291_87d737ad5b3b4841b4c98af102b6f2bc~mv2.webp);background-repeat: no-repeat;height: 100%"></div>
+  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 img-responsive" style="background-image: url(https://static.wixstatic.com/media/bfb291_5fd93d9c175748bab80e6a4bc50bc63e~mv2.jpg/v1/fill/w_400,h_260,al_c,q_80,usm_0.66_1.00_0.01/bfb291_5fd93d9c175748bab80e6a4bc50bc63e~mv2.webp);background-repeat: no-repeat;height: 100%"></div>
+  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 img-responsive" style="background-image: url(https://static.wixstatic.com/media/bfb291_627ba5b085a14f228daae7075ae51455~mv2.jpg/v1/fill/w_400,h_260,al_c,q_80,usm_0.66_1.00_0.01/bfb291_627ba5b085a14f228daae7075ae51455~mv2.webp);background-repeat: no-repeat;height: 100%"></div>
   </div>
 </div>
 
 <div style="padding:2vw ">
-  <div><span>皇室传统休闲度假领地</span><a href="" style="float: right;">详情</a></div>
-  <div class="row" style="height: 50vh;">
-  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="background-image: url(/images/yangsheng/fengmian/6.jpg);background-size: cover;background-repeat: no-repeat;height: 100%"></div>
-  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="background-image: url(/images/yangsheng/fengmian/16.jpg);background-size: cover;background-repeat: no-repeat;height: 100%"></div>
-  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="background-image: url(/images/yangsheng/fengmian/18.jpg);background-size: cover;background-repeat: no-repeat;height: 100%"></div>
+  <div><h5 style="font-size: 3vh"><span style="font-size: 5vh">皇室传统</span>休闲度假领地</span></h5><a href="" class="btn btn-primary btn-lg"  style="float: right;">详情</a></div>
+  <div class="row" style="height: 26vh">
+  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 img-responsive" style="background-image: url(https://static.wixstatic.com/media/bfb291_4af979034a29470b8f162d8e8fcc1b3a~mv2.jpg/v1/fill/w_400,h_260,al_c,q_80,usm_0.66_1.00_0.01/bfb291_4af979034a29470b8f162d8e8fcc1b3a~mv2.webp);background-repeat: no-repeat;height: 100%"></div>
+  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 img-responsive" style="background-image: url(https://static.wixstatic.com/media/bfb291_40460cc3598b4ce08618015edaacd08c~mv2.jpg/v1/fill/w_400,h_260,al_c,q_80,usm_0.66_1.00_0.01/bfb291_40460cc3598b4ce08618015edaacd08c~mv2.webp);background-repeat: no-repeat;height: 100%"></div>
+  <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 img-responsive" style="background-image: url(https://static.wixstatic.com/media/bfb291_e34741d8a6bb47c290ad4d82d544372f~mv2.jpg/v1/fill/w_400,h_260,al_c,q_80,usm_0.66_1.00_0.01/bfb291_e34741d8a6bb47c290ad4d82d544372f~mv2.webp);background-repeat: no-repeat;height: 100%"></div>
   </div>
 </div>
 

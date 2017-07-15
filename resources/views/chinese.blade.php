@@ -57,7 +57,9 @@
   </div>
 </div>
 <div >
-  <div class="remenTitle" >热门推荐</div>
+  <div class="remenTitle" style="font-size:50px;">热门推荐</div>
+  <div class="container">
+
   <div id="carousel1" style="width: 90%">
 
 
@@ -65,14 +67,14 @@
 
     <a href='shangwu_meeting'   ><img class="cloudcarousel"  src="/images/main_page/remen/remen-2.jpg"></a>
 
-    <a   ><img class="cloudcarousel"  src="/images/main_page/remen/remen-3.jpg"></a>
+    <a   ><img class="img-responsive cloudcarousel"  src="/images/main_page/remen/remen-3.jpg"></a>
 
-    <a   ><img class="cloudcarousel"  src="/images/main_page/remen/remen-4.jpg"></a>
+    <a   ><img class="img-responsive cloudcarousel"  src="/images/main_page/remen/remen-4.jpg"></a>
 
-    <a  ><img class="cloudcarousel"  src="/images/main_page/remen/remen-5.jpg"></a>
+    <a  ><img class="img-responsive cloudcarousel"  src="/images/main_page/remen/remen-5.jpg"></a>
 
-    <a href='huaxia_jiangnan'  ><img class="cloudcarousel"  src="/images/main_page/remen/remen-6.jpg"></a>
-    <a href='tanxian_zhulu'  ><img class="cloudcarousel"  src="/images/main_page/remen/remen-7.jpg"></a>
+    <a href='huaxia_jiangnan'  ><img class="img-responsive cloudcarousel"  src="/images/main_page/remen/remen-6.jpg"></a>
+    <a href='tanxian_zhulu'  ><img class="img-responsive cloudcarousel"  src="/images/main_page/remen/remen-7.jpg"></a>
 
     <div id="but1" class="carouselLeft"></div>
     <div id="but2" class="carouselRight"></div>
@@ -80,11 +82,14 @@
   </div>
 
 </div>
+</div>
 
 
 
 <div style=" border-bottom: 1px solid white;background-color: #e0dadf ;">
   <div class="teseContainer" style="width: 80%;margin: 5vh auto 5vh;">
+    <div class="container-fluid">
+
     <div class="teseTitle" >
       <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 " style="width: 20%;float: left;height: 80%;">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-232.93183450265366 -38.44221546123555 778.2636691006747 146.98442176719766" preserveAspectRatio="xMidYMid meet" style="stroke-width: 1px;">
@@ -154,12 +159,14 @@
 
     <div style='clear: both'></div>
   </div>
+
+</div>
   <div style='clear: both'></div>
 
 </div>
 
 
-<div class="content">
+<div class="container">
 <div class="subContainer cont cont1" style="margin-top: 5vh">
   <div class="teseContainer">
     <div class="subTitle" >
@@ -272,7 +279,7 @@
     <div class="subTitle" >
       <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
         <div class="subTitleImg" style="background-color: #fde030; float: right">
-            <img src="https://static.wixstatic.com/media/bfb291_e0df7becd1fd4480a938ff0e6d19f418~mv2.png/v1/fill/w_204,h_116,al_c,usm_0.66_1.00_0.01/bfb291_e0df7becd1fd4480a938ff0e6d19f418~mv2.png" style="width: 80%;position: absolute;top:2.5vw;left: 1vw;">
+            <img src="https://static.wixstatic.com/media/bfb291_e0df7becd1fd4480a938ff0e6d19f418~mv2.png/v1/fill/w_204,h_116,al_c,usm_0.66_1.00_0.01/bfb291_e0df7becd1fd4480a938ff0e6d19f418~mv2.png" style="width: 80%;position: absolute;top:2vw;left: 0.7vw;">
         </div>
       </div>
 
@@ -321,7 +328,7 @@
     <div class="subTitle" >
       <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
         <div class="subTitleImg" style="background-color: #3d9be9;float: right">
-            <img id="comp-ix6vqg79imgimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$cs8q.1.$comp-ixat975o.0.$comp-ix6vqg79.0.0.$image" src="https://static.wixstatic.com/media/bfb291_32476da3b2d443d5bfc0f9fa5e2c3592~mv2.png/v1/fill/w_176,h_174,al_c,usm_0.66_1.00_0.01/bfb291_32476da3b2d443d5bfc0f9fa5e2c3592~mv2.png" style="width: 70%;position: absolute;top:1vw;left: 1.5vw;">
+            <img id="comp-ix6vqg79imgimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$cs8q.1.$comp-ixat975o.0.$comp-ix6vqg79.0.0.$image" src="https://static.wixstatic.com/media/bfb291_32476da3b2d443d5bfc0f9fa5e2c3592~mv2.png/v1/fill/w_176,h_174,al_c,usm_0.66_1.00_0.01/bfb291_32476da3b2d443d5bfc0f9fa5e2c3592~mv2.png" style="width: 70%;position: absolute;top:1vw;left: 1.1vw;">
         </div>
       </div>
 
@@ -368,7 +375,7 @@
     <div class="subTitle" >
       <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
          <div class="subTitleImg" style="background-color: #ffe17f;float: right">
-            <img id="comp-ix2nvif8imgimage" alt="" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$cs8q.1.$comp-ixatcqr2.0.$comp-ix2nvif8.0.0.$image" src="https://static.wixstatic.com/media/bfb291_93c057b00faf4c8db55bf03ebe1362e2~mv2.png/v1/fill/w_230,h_144,al_c,usm_0.66_1.00_0.01/bfb291_93c057b00faf4c8db55bf03ebe1362e2~mv2.png" style="width: 80%;position: absolute;top:3vw;left: 1.2vw;">
+            <img id="comp-ix2nvif8imgimage" alt="" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$cs8q.1.$comp-ixatcqr2.0.$comp-ix2nvif8.0.0.$image" src="https://static.wixstatic.com/media/bfb291_93c057b00faf4c8db55bf03ebe1362e2~mv2.png/v1/fill/w_230,h_144,al_c,usm_0.66_1.00_0.01/bfb291_93c057b00faf4c8db55bf03ebe1362e2~mv2.png" style="width: 80%;position: absolute;top:2vw;left: 1vw;">
         </div>
       </div>
 
@@ -416,7 +423,7 @@
     <div class="subTitle" >
       <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
         <div class="subTitleImg" style="background-color: #344b52;float: right">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="5.176470924826226 5.176470924826226 64.64706196504481 64.64706196504481" preserveAspectRatio="xMidYMid meet" style="width: 70%;left: 1.5vw;top: 2vw;stroke: rgba(253, 224, 48, 1)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="5.176470924826226 5.176470924826226 64.64706196504481 64.64706196504481" preserveAspectRatio="xMidYMid meet" style="width: 70%;left: 1.1vw;top: 1vw;stroke: rgba(253, 224, 48, 1)">
                 <g>
                 <path d="M63.9 59.6H11.1c-2.7 0-5-2.3-5-5.2V15.3c0-2.9 2.2-5.2 5-5.2h52.8c2.7 0 5 2.3 5 5.2v39.1c-.1 2.9-2.3 5.2-5 5.2zM11.1 12.1c-1.6 0-3 1.4-3 3.2v39.1c0 1.8 1.3 3.2 3 3.2h52.8c1.6 0 3-1.4 3-3.2V15.3c0-1.8-1.3-3.2-3-3.2H11.1z"></path>
                 <path d="M56 64.9H19c-.6 0-1-.4-1-1s.4-1 1-1h37c.6 0 1 .4 1 1s-.5 1-1 1z"></path>
