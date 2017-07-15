@@ -11,23 +11,23 @@
         <div class="logo"></div>
             <div class="wrapper resize-drag nav-wrapper menu_font" style="margin-right: 0;margin-top: 0;margin-top: 2rem;max-width: 80%;font-size: 16px">
                 <ul class="nav-ul">
-                    <li><a href="chinese" style="padding-left: 2rem">首页</a></li>
-                    <li><a href="yangsheng">养生游</a></li>
-                    <li><a href="yiyou">医游</a></li>
-                    <li><a href="tanxian">探险游</a></li>
-                    <li><a href="jiatu">迦途四季</a></li>
-                    <li><a href="youxue">游学·留学</a></li>
-                    <li><a href="shangwu">商务</a></li>
-                    <li><a href="huaxia">华夏精品</a></li>
-                    <li><a href="shengtai">生态游</a></li>
-                    <li><a href="about">关于迦途</a></li>
+                    <li><a href="chinese" style="padding-left: 2rem"  {{{ (Request::is('chinese') ? 'class=active' : '') }}} >首页</a></li>
+                    <li><a href="yangsheng" {{{ (Request::is('yangsheng') ? 'class=active' : '') }}} >养生游</a></li>
+                    <li><a href="yiyou" {{{ (Request::is('yiyou') ? 'class=active' : '') }}} >医游</a></li>
+                    <li><a href="tanxian" {{{ (Request::is('tanxian') ? 'class=active' : '') }}} >探险游</a></li>
+                    <li><a href="jiatu" {{{ (Request::is('jiatu') ? 'class=active' : '') }}} >迦途四季</a></li>
+                    <li><a href="youxue" {{{ (Request::is('youxue') ? 'class=active' : '') }}} >游学·留学</a></li>
+                    <li><a href="shangwu" {{{ (Request::is('shangwu') ? 'class=active' : '') }}} >商务</a></li>
+                    <li><a href="huaxia" {{{ (Request::is('huaxia') ? 'class=active' : '') }}} >华夏精品</a></li>
+                    <li><a href="shengtai" {{{ (Request::is('shengtai') ? 'class=active' : '') }}} >生态游</a></li>
+                    <li><a href="about" {{{ (Request::is('about') ? 'class=active' : '') }}} >关于迦途</a></li>
                     @if(Auth::check())
-                  <li><a href="profile">订单详情</a></li>
+                  <li><a href="profile" {{{ (Request::is('profile') ? 'class=active' : '') }}} >订单详情</a></li>
                   <li role="separator" class="divider"></li>
                   <li><a href="{{route('logout')}}">注销</a></li>
                 @else
-                <li><a href="{{route('signin')}}">登录</a></li>
-                <li><a href="{{route('signup')}}">注册</a></li>
+                <li><a href="{{route('signin')}}" {{{ (Request::is('signin') ? 'class=active' : '') }}} >登录</a></li>
+                <li><a href="{{route('signup')}}" {{{ (Request::is('signup') ? 'class=active' : '') }}} >注册</a></li>
                 @endif
 
                     <li><a >自由行</a></li>

@@ -181,7 +181,7 @@
         </div>
         <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">养&nbsp&nbsp生&nbsp&nbsp游
 
-          <a class="more" style="position: absolute;right: -10px;bottom: 30%;line-height: normal;font-weight: bold;" href="yangshen" >更多详情</a>
+          <a class="more" style="position: absolute;right: -10px;bottom: 30%;line-height: normal;font-weight: bold;" href="yangsheng" >更多详情</a>
         </div>
 
 
