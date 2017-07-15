@@ -2,10 +2,9 @@
 
 @section('content')
 @include('header')
-<div class="row" style="height:505px;">
+<div class="row"  style="height:505px;">
   <div class="col-md-4 col-md-offset-4"><br><br>
-    <h1 style="box-shadow: none;">注册账号</h1>
-    <hr>
+    <h1 style="box-shadow: none;">注册账号</h1>    <hr>
     @if(count($errors)>0)
     <div class="alert alert-danger">
       @foreach($errors->all() as $error)
@@ -13,7 +12,7 @@
       @endforeach
     </div>
     @endif
-    <form action="" method="post">
+    <form action="{{ route('signup') }}" method="post">
       <div class="form-group">
         <label for="email">邮箱</label>
         <input type="text" id="email" name="email" class="form-control">

@@ -521,13 +521,13 @@
   <div class="popshow"></div>
   <div id="popup" class="pop1">
     <ul class="r_nav">
-      <li class="lis"><a href="javascript:;" title="">养生游</a></li>
-      <li class="lis"><a href="javascript:;" title="">探险游</a></li>
-      <li class="lis"><a href="javascript:;" title="">游学 留学</a></li>
-      <li class="lis"><a href="javascript:;" title="">医游</a></li>
-      <li class="lis"><a href="javascript:;" title="">华夏精品</a></li>
-      <li class="lis"><a href="javascript:;" title="">商务团</a></li>
-      <li class="lis"><a href="javascript:;" title="">迦途四季</a></li>
+      <li class="lis"><a href="yangsheng" title="">养生游</a></li>
+      <li class="lis"><a href="tanxian" title="">探险游</a></li>
+      <li class="lis"><a href="youxue" title="">游学 留学</a></li>
+      <li class="lis"><a href="yiyou" title="">医游</a></li>
+      <li class="lis"><a href="huaxia" title="">华夏精品</a></li>
+      <li class="lis"><a href="shangwu" title="">商务团</a></li>
+      <li class="lis"><a href="jiatu" title="">迦途四季</a></li>
     </ul><!--.r_nav-->
     <div class="tt"><a class="toTop" href="javascript:;" title="">Top</a></div>
   </div>

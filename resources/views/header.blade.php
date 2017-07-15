@@ -21,12 +21,19 @@
                     <li><a href="huaxia">华夏精品</a></li>
                     <li><a href="shengtai">生态游</a></li>
                     <li><a href="about">关于迦途</a></li>
-                    <li><a href="signin">登录</a></li>
-                    <li><a>更多</a></li>
-                    <!-- <li><a >自由行</a></li>
+                    @if(Auth::check())
+                  <li><a href="#">订单详情</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="{{route('logout')}}">注销</a></li>
+                @else
+                <li><a href="{{route('signin')}}">登录</a></li>
+                <li><a href="{{route('signup')}}">注册</a></li>
+                @endif
+
+                    <li><a >自由行</a></li>
                     <li><a >亲子游</a></li>
                     <li><a >婚礼策划</a></li>
-                    <li><a >住宿／机票</a></li> -->
+                    <li><a >住宿／机票</a></li>
 
                 </ul>
             </div>

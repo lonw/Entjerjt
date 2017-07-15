@@ -64,7 +64,7 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
-            'unix_socket' => '/Applications/mampstack-5.6.27-0/mysql/tmp/mysql.sock',
+            'unix_socket' => '/tmp/mysql.sock',
         ],
 
         'pgsql' => [

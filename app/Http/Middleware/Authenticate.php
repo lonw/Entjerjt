@@ -1,11 +1,9 @@
 <?php
-
 namespace App\Http\Middleware;
-
 use Closure;
 use Illuminate\Support\Facades\Auth;
-
-class RedirectIfAuthenticated
+//use Session;
+class Authenticate
 {
     /**
      * Handle an incoming request.
@@ -17,10 +15,14 @@ class RedirectIfAuthenticated
      */
     public function handle($request, Closure $next, $guard = null)
     {
-        if (Auth::guard($guard)->check()) {
-        //  return view('welcome');
-        }
-
-        return $next($request);
+      if (Auth::guard($guard)->guest()) {
+          if ($request->ajax() || $request->wantsJson()) {
+              return response('Unauthorized.', 401);
+          } else {
+            //  Session::put('oldUrl', $request->url());
+              return redirect()->route('signin');
+          }
+      }
+      return $next($request);
     }
 }

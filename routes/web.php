@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post("/yudingpost", ['as'=>'yuding-post', "uses"=>"Client\YudingController@yudingPost"]);
+
 
 Route::get('chinese', function () {
     return view('chinese');
@@ -230,13 +230,7 @@ Route::get('huaxia', function () {
     return view('huaxia');
 });
 
-Route::get('signin', function () {
-    return view('signin');
-});
 
-Route::get('signup', function () {
-    return view('signup');
-});
 
 Route::get('culture', function () {
     return view('culture');
@@ -251,4 +245,53 @@ Route::get('concept', function () {
 
 Route::get('contact', function () {
     return view('contact');
+});
+
+
+
+ Route::group(['middleware'=>'guest'],function(){
+  Route::get('signup',[
+    'uses'=>'UserController@getSignup',
+    'as'=>'signup'
+  ]);
+  Route::post('signup',[
+    'uses'=>'UserController@postSignup',
+    'as'=>'signup'
+  ]);
+
+  Route::get('signin', [
+    'uses'=>'UserController@getSignin',
+    'as'=>'signin'
+  ]);
+
+
+  Route::post('signin',[
+    'uses'=>'UserController@postSignin',
+    'as'=>'signin'
+  ]);
+ });
+
+Route::post("yudingpost", [
+  "uses"=>"YudingController@yudingPost",
+  'as'=>'yuding-post']);
+
+Route::group(['middleware'=>'auth'],function(){
+  Route::get('profile',[
+    'uses'=>'UserController@getProfile',
+    'as'=>'profile'
+  ]);
+
+  Route::get('logout',[
+    'uses'=>'UserController@getLogout',
+    'as'=>'logout'
+  ]);
+  // Route::get('checkout', [
+  //     'uses' => 'Productcontroller@getCheckout',
+  //     'as' => 'checkout'
+  // ]);
+  // Route::post('checkout', [
+  //     'uses' => 'Productcontroller@postCheckout',
+  //     'as' => 'checkout'
+  //
+  // ]);
 });
