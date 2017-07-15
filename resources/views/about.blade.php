@@ -11,13 +11,16 @@
 
 <div class="" style="float:right;margin-top:13%;">
   <div class="btn-group-vertical">
-    <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">关于迦途</button><br>
-    <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">迦途文化</button><br>
-    <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">迦途使命</button><br>
-    <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">核心理念</button><br>
-    <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">联系我们</button>
+    <a href="#" type="button" class="btn btn-primary btn-lg hidden-sm" style="background-color: rgba(0, 108, 109, 1);">关于迦途</a><p></p>
+    <a href="culture" type="button" class="btn btn-primary btn-lg hidden-sm" style="background-color: rgba(0, 108, 109, 1);">迦途文化</a><p></p>
+    <a href="mission" type="button" class="btn btn-primary btn-lg hidden-sm" style="background-color: rgba(0, 108, 109, 1);">迦途使命</a><p></p>
+    <a href="concept" type="button" class="btn btn-primary btn-lg hidden-sm" style="background-color: rgba(0, 108, 109, 1);">核心理念</a><p></p>
+    <a href="contact" type="button" class="btn btn-primary btn-lg hidden-sm" style="background-color: rgba(0, 108, 109, 1);">联系我们</a>
+
+
   </div>
 </div>
+
 </div>
 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" style="float:right;">
   <div class="container">

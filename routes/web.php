@@ -237,3 +237,18 @@ Route::get('signin', function () {
 Route::get('signup', function () {
     return view('signup');
 });
+
+Route::get('culture', function () {
+    return view('culture');
+});
+
+Route::get('mission', function () {
+    return view('mission');
+});
+Route::get('concept', function () {
+    return view('concept');
+});
+
+Route::get('contact', function () {
+    return view('contact');
+});
