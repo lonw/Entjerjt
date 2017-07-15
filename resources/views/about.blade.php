@@ -11,7 +11,7 @@
 
 <div class="" style="float:right;margin-top:23%;">
   <div class="btn-group-vertical">
-    <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">h关于迦途</button><br>
+    <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">关于迦途</button><br>
     <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">迦途文化</button><br>
     <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">迦途使命</button><br>
     <button type="button" class="btn btn-primary btn-lg hidden-sm" style="border-radius: 0 !important;background-color: rgba(0, 108, 109, 1);">核心理念</button><br>
