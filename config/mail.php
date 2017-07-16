@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => 'hello@example.com',
-        'name' => 'Example',
+        'address' => 'info@enterjt.com',
+        'name' => '迦途国际 JT Global Ent.',
     ],
 
     /*

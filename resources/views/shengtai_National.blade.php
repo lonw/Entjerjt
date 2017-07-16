@@ -127,8 +127,8 @@
                             <input type="text" class="form-control nobottom_pad" placeholder="" name="gName" required>
                             <label for="numBaby"  style="margin-top: 10px">联系电话</label>
                             <input type="text" class="form-control nobottom_pad" placeholder="" name="gPhone" required>
-                            <label for="numBaby"  style="margin-top: 10px">邮箱地址</label>
-                            <input type="text" class="form-control nobottom_pad" placeholder="" name="gEmail" required>
+                            <label for="inputEmail"  style="margin-top: 10px">邮箱地址</label>
+                            <input type="email" class="form-control nobottom_pad" placeholder="" name="gEmail" data-error="Bruh, that email address is invalid" required>
                             <label for="numBaby"  style="margin-top: 10px">护照号码</label>
                             <input type="text" class="form-control nobottom_pad" placeholder="" name="gPP" required>
                             </div>

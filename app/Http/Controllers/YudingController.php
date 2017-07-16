@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Cycle;
-use Mail;
 use Auth;
 use Input;
 use Log;
@@ -17,7 +17,10 @@ use DB;
 use Carbon\Carbon;
 use AWS;
 use App\Order;
+use App\User;
 use Config;
+use App\Mail\OrderProcess;
+
 
 
 
@@ -45,9 +48,26 @@ class YudingController extends Controller
 
             ]);
 
-  $order->save();
-      echo "success!";
-        //return view('yuding_detail');
+            $name = $request->input('gName');
+            $email = $request->input('gEmail');
+            // $date = $request->input('travelDate');
+            // $adult = $request->input('numAdult');
+            // $children = $request->input('numChild');
+            // $baby = $request->input('numBaby');
+            // $tel = $request->input('gPhone');
+            // $passport = $request->input('gPP');
+            // $title = $request->input('title');
+            if(Auth::check()){
+      Auth::user()->orders()->save($order);
+    }else{
+      $order->save();
+    }
+      echo '<center><h1>提交成功！订单已经寄到您填写的邮箱地址，谢谢!</h1><br>
+      <input action="action" onclick="window.history.go(-1); return false;" type="button" value="返回" /></center>';
+
+      \Mail::to($email)->send(new OrderProcess($name));
+      // return redirect()->back();
+
     }
 
 }

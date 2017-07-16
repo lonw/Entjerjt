@@ -58,14 +58,14 @@ return redirect()->back();
       //  }
       //  return redirect()->back();
  }
-     public function getProfile(){
-      //  $orders = Auth::user()->orders;
-      //    $orders->transform(function($order, $key) {
-      //        $order->cart = unserialize($order->cart);
-      //        return $order;
-      //    });
-      //    return view('user.profile', ['orders' => $orders]);
-      return view('profile');
+ public function getProfile(){
+  $orders = Auth::user()->orders;
+    $orders->transform(function($order, $key) {
+   //     $order->cart = unserialize($order->cart);
+        return $order;
+    });
+    return view('profile', ['orders' => $orders]);
+ return view('profile');
  }
       public function getLogout(){
       Auth::logout();
