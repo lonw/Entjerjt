@@ -8,7 +8,7 @@
     <div class="wrapper--big" style="max-width: 100%">
 
         <nav class="nav" style="margin-top: 0;margin-right: 0;max-width: 100%;padding: 0;background-color: white;border-radius: 5vw;border:4px solid #b22087;z-index: 1000">
-        <div class="logo"></div>
+        <a href="chinese#" class="logo" style="background-color: rgba(255, 255, 255, 0);" alt="迦途国际 Jia Tu Enter."></a>
             <div class="wrapper resize-drag nav-wrapper menu_font" style="margin-right: 0;margin-top: 0;margin-top: 2rem;max-width: 80%;font-size: 16px">
                 <ul class="nav-ul">
                     <li><a href="chinese" style="padding-left: 2rem"  {{{ (Request::is('chinese') ? 'class=active' : '') }}} >首页</a></li>

@@ -5800,7 +5800,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 .nav-pills > li.active > a:focus
 {
     color: #ffffff;
-    background-color: #0f3651;
+    background-color: #428bca;
 }
 
 .nav-stacked > li

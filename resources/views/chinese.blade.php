@@ -286,7 +286,7 @@
 
 
 
-        <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">旅学 <b>&#183;</b> 留学
+        <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align: left">游学 <b>&#183;</b> 留学
           <a class="more" href="#" style="position: absolute;right: -10px;bottom: 30%;line-height: normal;font-weight: bold;">更多详情</a>
         </div>
 

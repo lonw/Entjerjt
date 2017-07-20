@@ -246,7 +246,9 @@ Route::get('concept', function () {
 Route::get('contact', function () {
     return view('contact');
 });
-
+Route::get('booking', function () {
+    return view('booking');
+});
 
 
  Route::group(['middleware'=>'guest'],function(){

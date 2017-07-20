@@ -45,36 +45,43 @@
                 <div style="background-color: rgba(252, 249, 226, 1)">
                 <h4 style="text-align: center">产品预订表</h4>
                 <form method="POST" action="{{route('yuding-post')}}" enctype="multipart/form-data" style="padding: 2vw">
+                {{ csrf_field() }}
                     <div class="row">
+                      <input type="hidden" name="title" value="江南行">
                     <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No1.png"></div>
                     <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
-                        <label class="col-md-4 col-sm-4 col-lg-4 col-xs-4 control-label" for="start" style="margin-top: 10px">出发日期</label>
-                        <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
-                            <input type="text" class="form-control nobottom_pad" id="start"
-                               placeholder="" name="start"
-                                required></div>
-                    </div>
-                    <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
+                    <label class="col-md-4 col-sm-4 col-lg-4 col-xs-4 control-label" for="travelDate" style="margin-top: 10px">出发日期</label>
+                    <input type="text" class="form-control nobottom_pad" id="start" placeholder="" name="travelDate"  required></div>
+
+                    <!-- <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
                         <label class="col-md-4 col-sm-4 col-lg-4 col-xs-4 control-label" for="roomNum" style="margin-top: 10px">房间数</label>
                         <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
                             <input type="number" class="form-control nobottom_pad" id="roomNum" placeholder="" name="roomNum"  required>
                         </div>
-                    </div>
+                    </div> -->
                     </div>
                     <div class="row">
                     <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No2.png"></div>
                     <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11 yuding_row2">
                     <div class="roomRow">
-                        <label class="col-md-2 col-sm-2 col-lg-2 col-xs-2 control-label" style="margin-top: 10px;padding: 0;"><span style="background-color: rgb(213,237,248);color: rgb(46, 157, 206);padding: 4px">房间1</span></label>
                         <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
-
-                            <label class="col-md-3 col-sm-3 col-lg-3 col-xs-3 control-label"  style="margin-top: 10px">成人</label>
-                            <div class="col-md-7 col-sm-7 col-lg-7 col-xs-7">
-                                <input type="number" class="form-control nobottom_pad"
-                                   placeholder="" name="rom[]"
-                                    required></div>
+                            <label for="numAdult"  style="margin-top: 10px">成人人数</label>
+                            <input type="number" class="form-control nobottom_pad" placeholder="" name="numAdult" required>
+                            <label for="numChild" style="margin-top: 10px ">儿童人数</label>
+                            <input type="number" class="form-control nobottom_pad"   placeholder="" name="numChild" required>
+                            <label for="numBaby"  style="margin-top: 10px">婴儿人数</label>
+                            <input type="number" class="form-control nobottom_pad" placeholder="" name="numBaby" required>
+                            <label for="numBaby"  style="margin-top: 10px">姓名</label>
+                            <input type="text" class="form-control nobottom_pad" placeholder="" name="gName" required>
+                            <label for="numBaby"  style="margin-top: 10px">联系电话</label>
+                            <input type="text" class="form-control nobottom_pad" placeholder="" name="gPhone" required>
+                            <label for="inputEmail"  style="margin-top: 10px">邮箱地址</label>
+                            <input type="email" class="form-control nobottom_pad" placeholder="" name="gEmail" data-error="Bruh, that email address is invalid" required>
+                            <label for="numBaby"  style="margin-top: 10px">护照号码</label>
+                            <input type="text" class="form-control nobottom_pad" placeholder="" name="gPP" required>
+                            </div>
                         </div>
-                        <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
+                        <!-- <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
                             <label class="col-md-3 col-sm-3 col-lg-3 col-xs-3 control-label" style="margin-top: 10px">房型</label>
                             <div class="col-md-7 col-sm-7 col-lg-7 col-xs-7">
                                 <select type="text" class="form-control nobottom_pad" placeholder="" name="roomType[]" required>
@@ -83,23 +90,23 @@
                                     <option value="3">三人间</option>
                                     <option value="4">四人间</option>
                                 </select>
-                            </div>
+                            </div> -->
                         </div>
                         </div>
                     </div>
-                    
+
                     </div>
                     <div class="row">
-                    <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No3.png" ></div>
+                    <!-- <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No3.png" ></div> -->
                     <div class="form-group" style="margin-bottom: 10px;">
-                        <label class="col-md-3 col-sm-3 col-lg-3 col-xs-3 control-label" for="location" style="margin-top: 10px">上车地点</label>
+                        <!-- <label class="col-md-3 col-sm-3 col-lg-3 col-xs-3 control-label" for="location" style="margin-top: 10px">上车地点</label>
                         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
                             <select type="text" class="form-control nobottom_pad" id="location" placeholder="" name="location" required>
                                 <option value="CA">加拿大</option>
                                 <option value="US">美国</option>
                                 <option value="CN">中国</option>
                             </select>
-                        </div>
+                        </div> -->
                     </div>
                     </div>
                     <div class="form-group" style="float: right">
@@ -112,10 +119,10 @@
                 </form>
             </div>
             </div>
-            
+
         </div>
-        
-    
+
+
     <div style="position: relative;"><img src="/images/huaxia/east/jiangnan/shang-si/2.png" style="width: 100%"><a class="jiangnan_btn" href="huaxia_jiangnan_chengsi" >嵊泗风貌</a></div>
 <!-- day1 -->
     <div style="border-bottom: 1px solid black">
@@ -128,7 +135,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div  style="border: 1px solid black;border-radius: 1vw;padding: 3vw 0;box-shadow: 2px 2px 1px #888888;margin-bottom: 1vw; background-color: rgba(255, 255, 255, 0.3);">
-                
+
                 <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
                     <img src="/images/huaxia/east/jiangnan/15.png" style="height: 10vw;margin-left: 3vw">
                 </div>
@@ -147,7 +154,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_noBorder" style="">
-            
+
             <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 jiangnan_noBImg" style="">
                 <img src="/images/huaxia/east/jiangnan/shang-si/1.jpg" style="">
             </div>
@@ -156,7 +163,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border"  style="">
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -188,7 +195,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/3.jpg" >
                 </div>
@@ -216,7 +223,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -232,7 +239,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/3.jpg" >
                 </div>
@@ -260,7 +267,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -276,7 +283,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/3.jpg" >
                 </div>
@@ -296,7 +303,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -321,7 +328,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/3.jpg" >
                 </div>
@@ -341,7 +348,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -410,7 +417,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -442,7 +449,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/3.jpg" >
                 </div>
@@ -479,7 +486,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -510,7 +517,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -526,7 +533,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/3.jpg" >
                 </div>
@@ -570,7 +577,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -601,7 +608,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -617,7 +624,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/3.jpg" >
                 </div>
@@ -670,7 +677,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -710,7 +717,7 @@
             </div><div style='clear: both'></div>
         </div>
          <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/3.jpg" >
                 </div>
@@ -745,7 +752,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/2.jpg" >
                 </div>
@@ -761,7 +768,7 @@
             </div><div style='clear: both'></div>
         </div>
         <div class="jiangnan_border" >
-                
+
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
                     <img src="/images/huaxia/3.jpg" >
                 </div>
@@ -813,17 +820,17 @@
     <div style='clear: both'></div>
 
     <div style="width: 100%;height: 10vh"></div>
-        
-        
+
+
     </div>
-    
-
-    
 
 
 
 
-    
+
+
+
+
 
 <div style='clear: both'></div>
 
@@ -836,7 +843,7 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  
+
   <link href='/css/fullcalendar.css' rel='stylesheet' />
   <link href='/css/fullcalendar.print.css' rel='stylesheet' media='print' />
   <script src='/js/jquery.min.js'></script>
@@ -848,7 +855,7 @@
 
     $(document).ready(function() {
 
-    
+
 
         var date = new Date();
 
@@ -858,7 +865,7 @@
 
         var y = date.getFullYear();
 
-        
+
 
         var calendar = $('#calendar').fullCalendar({
 
@@ -884,13 +891,13 @@
 
             events: [
 
-                
+
 
             ]
 
         });
 
-        
+
 
     });
 $('#roomNum').change(function(){
@@ -902,8 +909,8 @@ $('#roomNum').change(function(){
         roomRowNew.children().first().children().first().text('房间'+j);
         roomRowNew.removeClass('roomRow').appendTo('.yuding_row2');
     }
-        
+
 });
-    
+
 </script>
 @endsection

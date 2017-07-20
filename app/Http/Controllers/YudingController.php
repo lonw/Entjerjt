@@ -50,20 +50,20 @@ class YudingController extends Controller
 
             $name = $request->input('gName');
             $email = $request->input('gEmail');
-            // $date = $request->input('travelDate');
-            // $adult = $request->input('numAdult');
-            // $children = $request->input('numChild');
-            // $baby = $request->input('numBaby');
-            // $tel = $request->input('gPhone');
-            // $passport = $request->input('gPP');
-            // $title = $request->input('title');
+            $date = $request->input('travelDate');
+            $adult = $request->input('numAdult');
+            $children = $request->input('numChild');
+            $baby = $request->input('numBaby');
+            $tel = $request->input('gPhone');
+            $passport = $request->input('gPP');
+            $title = $request->input('title');
             if(Auth::check()){
       Auth::user()->orders()->save($order);
     }else{
       $order->save();
     }
       echo '<center><h1>提交成功！订单已经寄到您填写的邮箱地址，谢谢!</h1><br>
-      <input action="action" onclick="window.history.go(-1); return false;" type="button" value="返回" /></center>';
+        <a href="/profile"> <button type="button" name="button">完成</button></a></center>';
 
       \Mail::to($email)->send(new OrderProcess($name));
       // return redirect()->back();

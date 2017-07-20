@@ -71,7 +71,7 @@
                     <img u="image" src="/images/huaxia/westSouth/xianggelila/sight/13.jpg" />
                     <img u="thumb" src="/images/huaxia/westSouth/xianggelila/sight/thumb-13.jpg" />
                 </div>
-                
+
             </div>
             <!-- Thumbnail Navigator -->
             <div u="thumbnavigator" class="jssort03" style="position:absolute;left:0px;bottom:0px;width:600px;height:60px;" data-autocenter="1">
@@ -88,13 +88,13 @@
                 <!-- Thumbnail Item Skin End -->
             </div>
             <!-- Arrow Navigator -->
-            
+
         </div>
     </div>
     <div class="col-md-7 col-sm-7 col-lg-7 col-xs-12" style="padding-left: 4vw;">
-        <div style="color: #ffc300;font-size: 4vw;text-align: center;"><strong>梦幻仙境——香格里拉</strong>​</div> 
+        <div style="color: #ffc300;font-size: 4vw;text-align: center;"><strong>梦幻仙境——香格里拉</strong>​</div>
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
-            
+
             <div  style="color: black;font-weight: bold;font-size: 1.8vw">出发城市：多伦多<br><br>
             ​行程天数：9天<br><br> ​
             行程概要：<br>
@@ -108,8 +108,8 @@
         </div>
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6" style="background-image: url(/images/huaxia/westSouth/xianggelila/2.png);height: 25vw;margin-top: 5vw;background-size: 100% 100%"></div>
     </div>
-	
-	
+
+
 	</div>
 
 	<div style="padding: 5vh"></div>
@@ -142,75 +142,82 @@
                 </div>
                 <div style="background-color: rgba(252, 249, 226, 1)">
                 <h4 style="text-align: center">产品预订表</h4>
-                <form method="POST" action="{{route('yuding-post')}}" enctype="multipart/form-data" style="padding: 2vw">
-                    <div class="row">
-                    <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No1.png"></div>
-                    <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
-                        <label class="col-md-4 col-sm-4 col-lg-4 col-xs-4 control-label" for="start" style="margin-top: 10px">出发日期</label>
-                        <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
-                            <input type="text" class="form-control nobottom_pad" id="start"
-                               placeholder="" name="start"
-                                required></div>
-                    </div>
-                    <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
-                        <label class="col-md-4 col-sm-4 col-lg-4 col-xs-4 control-label" for="roomNum" style="margin-top: 10px">房间数</label>
-                        <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
-                            <input type="number" class="form-control nobottom_pad" id="roomNum" placeholder="" name="roomNum"  required>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No2.png"></div>
-                    <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11 yuding_row2">
-                    <div class="roomRow">
-                        <label class="col-md-2 col-sm-2 col-lg-2 col-xs-2 control-label" style="margin-top: 10px;padding: 0;"><span style="background-color: rgb(213,237,248);color: rgb(46, 157, 206);padding: 4px">房间1</span></label>
-                        <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
+								<form method="POST" action="{{route('yuding-post')}}" enctype="multipart/form-data" style="padding: 2vw">
+								{{ csrf_field() }}
+										<div class="row">
+											<input type="hidden" name="title" value="梦幻仙境——香格里拉">
+										<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No1.png"></div>
+										<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
+										<label class="col-md-4 col-sm-4 col-lg-4 col-xs-4 control-label" for="travelDate" style="margin-top: 10px">出发日期</label>
+										<input type="text" class="form-control nobottom_pad" id="start" placeholder="" name="travelDate"  required></div>
 
-                            <label class="col-md-3 col-sm-3 col-lg-3 col-xs-3 control-label"  style="margin-top: 10px">成人</label>
-                            <div class="col-md-7 col-sm-7 col-lg-7 col-xs-7">
-                                <input type="number" class="form-control nobottom_pad"
-                                   placeholder="" name="rom[]"
-                                    required></div>
-                        </div>
-                        <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
-                            <label class="col-md-3 col-sm-3 col-lg-3 col-xs-3 control-label" style="margin-top: 10px">房型</label>
-                            <div class="col-md-7 col-sm-7 col-lg-7 col-xs-7">
-                                <select type="text" class="form-control nobottom_pad" placeholder="" name="roomType[]" required>
-                                    <option value="1">单人间</option>
-                                    <option value="2">双人间</option>
-                                    <option value="3">三人间</option>
-                                    <option value="4">四人间</option>
-                                </select>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    
-                    </div>
-                    <div class="row">
-                    <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No3.png" ></div>
-                    <div class="form-group" style="margin-bottom: 10px;">
-                        <label class="col-md-3 col-sm-3 col-lg-3 col-xs-3 control-label" for="location" style="margin-top: 10px">上车地点</label>
-                        <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
-                            <select type="text" class="form-control nobottom_pad" id="location" placeholder="" name="location" required>
-                                <option value="CA">加拿大</option>
-                                <option value="US">美国</option>
-                                <option value="CN">中国</option>
-                            </select>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="form-group" style="float: right">
-                        <label class="control-label" id="money" style="background-color: rgb(217,243,216);color: rgb(103,169,119);">总金额:</label>
-                        <label class="control-label" id="peopleNum" style="background-color: rgb(217,243,216);color: rgb(103,169,119);">总人数:</label>
-                    </div><div style='clear: both'></div>
-                    <button type="submit" class="btn btn-sm btn-yuding"
-                            id="btnSave" style="float: right">立即预订
-                    </button><div style='clear: both'></div>
-                </form>
+										<!-- <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
+												<label class="col-md-4 col-sm-4 col-lg-4 col-xs-4 control-label" for="roomNum" style="margin-top: 10px">房间数</label>
+												<div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
+														<input type="number" class="form-control nobottom_pad" id="roomNum" placeholder="" name="roomNum"  required>
+												</div>
+										</div> -->
+										</div>
+										<div class="row">
+										<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No2.png"></div>
+										<div class="col-md-11 col-sm-11 col-lg-11 col-xs-11 yuding_row2">
+										<div class="roomRow">
+												<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
+														<label for="numAdult"  style="margin-top: 10px">成人人数</label>
+														<input type="number" class="form-control nobottom_pad" placeholder="" name="numAdult" required>
+														<label for="numChild" style="margin-top: 10px ">儿童人数</label>
+														<input type="number" class="form-control nobottom_pad"   placeholder="" name="numChild" required>
+														<label for="numBaby"  style="margin-top: 10px">婴儿人数</label>
+														<input type="number" class="form-control nobottom_pad" placeholder="" name="numBaby" required>
+														<label for="numBaby"  style="margin-top: 10px">姓名</label>
+														<input type="text" class="form-control nobottom_pad" placeholder="" name="gName" required>
+														<label for="numBaby"  style="margin-top: 10px">联系电话</label>
+														<input type="text" class="form-control nobottom_pad" placeholder="" name="gPhone" required>
+														<label for="inputEmail"  style="margin-top: 10px">邮箱地址</label>
+														<input type="email" class="form-control nobottom_pad" placeholder="" name="gEmail" data-error="Bruh, that email address is invalid" required>
+														<label for="numBaby"  style="margin-top: 10px">护照号码</label>
+														<input type="text" class="form-control nobottom_pad" placeholder="" name="gPP" required>
+														</div>
+												</div>
+												<!-- <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
+														<label class="col-md-3 col-sm-3 col-lg-3 col-xs-3 control-label" style="margin-top: 10px">房型</label>
+														<div class="col-md-7 col-sm-7 col-lg-7 col-xs-7">
+																<select type="text" class="form-control nobottom_pad" placeholder="" name="roomType[]" required>
+																		<option value="1">单人间</option>
+																		<option value="2">双人间</option>
+																		<option value="3">三人间</option>
+																		<option value="4">四人间</option>
+																</select>
+														</div> -->
+												</div>
+												</div>
+										</div>
+
+										</div>
+										<div class="row">
+										<!-- <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No3.png" ></div> -->
+										<div class="form-group" style="margin-bottom: 10px;">
+												<!-- <label class="col-md-3 col-sm-3 col-lg-3 col-xs-3 control-label" for="location" style="margin-top: 10px">上车地点</label>
+												<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
+														<select type="text" class="form-control nobottom_pad" id="location" placeholder="" name="location" required>
+																<option value="CA">加拿大</option>
+																<option value="US">美国</option>
+																<option value="CN">中国</option>
+														</select>
+												</div> -->
+										</div>
+										</div>
+										<div class="form-group" style="float: right">
+												<label class="control-label" id="money" style="background-color: rgb(217,243,216);color: rgb(103,169,119);">总金额:</label>
+												<label class="control-label" id="peopleNum" style="background-color: rgb(217,243,216);color: rgb(103,169,119);">总人数:</label>
+										</div><div style='clear: both'></div>
+										<button type="submit" class="btn btn-sm btn-yuding"
+														id="btnSave" style="float: right">立即预订
+										</button><div style='clear: both'></div>
+								</form>
             </div>
             </div>
-            
+
         </div>
 
 
@@ -221,9 +228,9 @@
             <div class="shangwu_content" style="border: 1px solid black;background-color: #fff4db;padding: 2vw;font-weight: bold;color: black">若要问,哪里的花海<span style="color: #a95700">最</span>美丽壮观？ 那一定是在<span style="color: #ffc300">云南</span>！<br>
 若要问,哪里的色彩<span style="color: #a95700">最</span>缤纷艳丽？ 那一定是在<span style="color: #ffc300">云南</span>!<br>
 若要问,哪里的服饰<span style="color: #a95700">最</span>争奇斗艳？ 那一定是在<span style="color: #ffc300">云南</span>!<br><br>
- 
+
 华夏56个民族中，西南一隅便汇聚了<span style="color: #2b689c">52个</span>。跟随迦途的路线，让您在寄情山水间，领略不同文化带来的<span style="color: #a95700">新鲜和愉悦</span>。<br><br>
- 
+
 就餐：大理由于气候、环境、地理以及民族习俗等诸多原因形成了口味独特的饮食习惯，喜食酸、<span style="color: #a95700">辣</span>，酸能生津解暑，辣能<span style="color: #a95700">祛湿开胃</span>。<br><br>
 ​
 交通：丰富的地形状况，必须乘着汽车慢慢欣赏。<br><br>
@@ -242,22 +249,22 @@
         <div><span class="shangwu_subTitle" style="background-image: url(/images/huaxia/east/6.png);background-size: 100% 100%;padding: 2vw 3vw 2vw 4vw;">​滇南特色</span></div>
         <div style="padding: 5vh"></div>
         <div class="row">
-            
+
                 <img src="/images/huaxia/westSouth/xianggelila/food/1.png" style="width: 100%;height: 35vw">
 
                 <img src="/images/huaxia/westSouth/xianggelila/food/2.png" style="width: 100%;height: 35vw">
         </div>
-        
+
     </div>
     <div style="padding: 5vh"></div>
     <div>
         <div><span class="shangwu_subTitle" style="background-image: url(/images/huaxia/east/6.png);background-size: 100% 100%;padding: 2vw 3vw 2vw 4vw;">迦途推荐</span></div>
         <div style="padding: 5vh"></div>
         <div class="row">
-            
-                
+
+
         </div>
-        
+
     </div>
 
     <div style="padding: 5vh"></div>
@@ -267,12 +274,12 @@
     <div style="background-color: rgba(255, 255, 255, 0.8);"><span class="shangwu_subTitle" style="padding: 2vw 3vw 2vw 4vw;">详细行程：</span>
     <div style="padding: 3vh"></div>
     </div>
-    
+
     <div class="row">
         <img src="/images/huaxia/westSouth/xianggelila/1.jpg" style="width: 100%">
     </div>
 
- <div style="background-color: rgba(255, 255, 255, 0.8);width: 100%;padding:3vw;color: black;">       
+ <div style="background-color: rgba(255, 255, 255, 0.8);width: 100%;padding:3vw;color: black;">
 
     <div style="padding: 3vh"></div>
 
@@ -308,13 +315,13 @@
         <div class="shangwu_subTitle">景点介绍：</div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/3.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw;">
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw"> 白族三道茶，白族称它为“绍道兆”。是云南白族招待贵宾时抒发感情，祝愿美好的一种饮茶方式。早在中国明朝时期，三道茶便以其独特的“头苦、二甜、三回味”闻名中华南北。</div>
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12" style="padding-top: 2vw;background-image: url(/images/huaxia/westSouth/xianggelila/sight/2.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
-            
+
         </div></div>
     </div><div style='clear: both'></div>
     </div>
@@ -324,8 +331,8 @@
         <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/3.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw">
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw"> 世界上最古老、分布最广的剑状喀斯特地貌——石林风景区。有着2.7亿年历史的石林是世界自然遗产、世界地质公园，以其雄、奇、险、秀、幽、旷被誉为“天下第一奇观”。</div>
@@ -358,7 +365,7 @@
         <div style="padding: 3vh"></div>
     </div>
 
-    
+
 
 
     <div style="padding: 3vh"></div>
@@ -378,13 +385,13 @@
         <div class="shangwu_subTitle">景点介绍：</div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/4.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw">
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw;padding-top: 0">大理古城历史可追溯至唐天宝年间，现在的古城建于明洪武十五年（公元1382年），背靠苍山，面临洱海，形成了“一水绕苍山，苍山抱古城”的大气格局。城内依然保持着“三家一眼井，一户几盆花”的古朴风情。</div>
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12" style="padding-top: 5vw;background-image: url(/images/huaxia/westSouth/xianggelila/8.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
-            
+
         </div></div>
     </div><div style='clear: both'></div>
     </div>
@@ -392,16 +399,16 @@
         <div style="padding: 3vh"></div>
         <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
         <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
-        
+
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/4.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw">
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw">至今已有近1200年历史的崇圣寺三塔始建于南诏丰佑年间（公元824-859年）。崇圣寺三塔又称“大理三塔”，是中国最著名的佛塔之一，一大两小三座佛塔呈鼎立雄厚之势。</div>
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12" style="padding-top: 5vw;background-image: url(/images/huaxia/westSouth/xianggelila/14.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
-            
+
         </div></div>
         </div><div style='clear: both'></div>
     </div>
@@ -410,7 +417,7 @@
             <div style="padding: 3vh"></div>
             <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3">
                 <div style="padding: 3vw"></div>
-                
+
             </div>
             <div class="col-md-9 col-sm-9 col-lg-9 col-xs-9" style="border: 1px solid black;border-radius: 1vw;padding: 3vw 0;box-shadow: 2px 2px 1px #888888;">
                 <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" style="margin: 2vw 1vw;padding: 1vw">
@@ -443,13 +450,13 @@
         <div class="shangwu_subTitle">景点介绍：</div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/4.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw;">
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw;padding-top: 0">云南自古有“大理风光在苍（山）洱（海），苍洱风光在双廊。”的说法。双廊是云南著名的“沧海风光第一镇”，这里既有着得天独厚的自然风光，也保留了唐朝以来佛、道、儒、原始宗教的多元文化古迹。</div>
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12" style="padding-top: 2vw;background-image: url(/images/huaxia/westSouth/xianggelila/7.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
-            
+
         </div></div>
     </div><div style='clear: both'></div>
     </div>
@@ -457,11 +464,11 @@
         <div style="padding: 3vh"></div>
         <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
         <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
-        
+
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;padding-top: 5vw">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/4.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10">
         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw"> 挖色镇是洱海地区白族本土文化发源地之一，也是洱海的宗教文化中心。这里的白族门楼，佛教寺庙都有着数百上千年的历史，堪称是白族文化的博物馆。<br><br>乘豪华玻璃底游艇游览“群山中的无瑕美玉”——洱海风光，在船上享受大理特色小食、聆听白族三弦弹唱，饱览湖光山色的同时，感受丰富多彩的白族民间文化。</div>
@@ -518,8 +525,8 @@
         <div class="shangwu_subTitle">景点介绍：</div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/5.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw;">
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw;"> 世界文化遗产——丽江古城始建于宋朝，距今已有千年历史。漫步在丽江的大街小巷，红岩铺就的街道，风格各异的历史建筑，慵懒休闲的氛围都能让你感受到古城独特的韵味。</div>
@@ -531,11 +538,11 @@
         <div style="padding: 3vh"></div>
         <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
         <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
-        
+
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;padding-top: 5vw">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/5.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10">
         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw"> 狮子山山顶的万古楼是全丽江城的制高点，在这里你可以北眺美丽的玉龙雪山，南观小桥流水人家的丽江古城。<br><br>“北有故宫，南有木府”木府充分反映了明代中原建筑的风采气质，被称为丽江古城文化之“大观园”。木府历来是丽江纳西族土司的的王府。</div>
@@ -580,8 +587,8 @@
         <div class="shangwu_subTitle">景点介绍：</div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/6.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw">
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw;"> 长江从青藏高原奔腾而下，到了香格里拉县的沙松碧村，突然来了个100多度的急转弯，转向东北，形成了罕见的“V”字形大弯，人们称这天下奇观为“长江第一湾”。</div>
@@ -593,11 +600,11 @@
         <div style="padding: 3vh"></div>
         <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
         <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
-        
+
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;padding-top: 5vw">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/6.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10">
         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw"> 虎跳峡是万里长江第一大峡谷，因猛虎跃江心石过江的传说而得名。两岸山岭与江面落差2500-3000米，江水在峡内连续下跌七个陡坎，水势汹涌，声闻数里。<br><br>噶丹松赞林寺为康巴藏区十三林之一，云南藏区规模最大的藏传佛教寺院，也是藏区格鲁教派最负盛名的大寺。因其外观布局酷似布达拉宫，所以又有“小布达拉宫”之称。</div>
@@ -610,7 +617,7 @@
         </div><div style='clear: both'></div>
     </div>
 
-        
+
         <div style="padding: 3vh"></div>
     </div>
 
@@ -631,8 +638,8 @@
         <div class="shangwu_subTitle">景点介绍：</div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/6.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw">
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw;padding-top: 0">普达措国家公园主要由碧塔海和属都湖两个高原湖泊构成。海拔在3500－4150米之间。公园内湖泊湿地、森林草甸、河谷溪流、珍稀动植物等原始生态环境保存完好。是三江（金沙江、澜沧江、怒江）并流自然保护区的心脏。</div>
@@ -644,11 +651,11 @@
         <div style="padding: 3vh"></div>
         <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
         <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
-        
+
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;padding-top: 0">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/westSouth/xianggelila/6.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10">
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw; padding-top: 0">龟山公园建于康熙年间。园内的转经筒是世界最大的转经筒，整个转经筒大约有5层楼高，筒身为纯铜镀金，在筒壁上端用浮雕篆刻着文殊，普贤，观音，地藏四大菩萨，筒内还藏有经咒、无字真言等共124万条和多种佛宝达16吨。每顺转一周，相当于默念佛号124万声，转满三周，就可以消灾祈福，吉祥如意。</div>
@@ -698,8 +705,8 @@
         <div class="shangwu_subTitle">景点介绍：</div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
             <div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/17.png" style="width: 94%;margin-right: 6%;"></div>
-            
-            
+
+
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10">
         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw"> 上海是一座充满着时代气息的城市，此行您所下榻的地方自然也不例外。浦江饭店，这家创造了远东地区无数个第一的“神话”酒店。您的体验将与当年的卓别林、爱因斯坦他们无二。请您就浦江饭店好好休息，准备第二日启程返回多伦多吧！</div>
@@ -711,7 +718,7 @@
         </div></div>
     </div><div style='clear: both'></div>
     </div>
-    
+
     <div>
             <div style="padding: 3vh"></div>
             <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3">
@@ -750,7 +757,7 @@
     </div><div style='clear: both'></div>
     <div style="padding: 3vh"></div>
     </div>
-    
+
 </div>
 
 <div class="shangwu_content" style="background-color: rgba(255, 255, 255, 0.8);width: 100%;padding:0 5vw;color: #ff6161;font-weight: bold;">秀美无暇的洱海，自然质朴的古城，以及“心中的日月”——香格里拉。风景为肌，人文做骨的云南之旅希望让您留下美好的会议。世间遍是美景，迦途愿您再次起航。</div>
@@ -759,7 +766,7 @@
     </div>
 <div style="background-color: rgba(255, 255, 255, 0.8);width: 100%;height: 3vw"></div>
 <div style="width: 100%;height: 3vw;background-color: black"></div>
- <div style="background-color: rgba(255, 255, 255, 0.8);width: 100%;padding:5vw;color: black;">  
+ <div style="background-color: rgba(255, 255, 255, 0.8);width: 100%;padding:5vw;color: black;">
     <div class="shangwu_title">费用详情：</div>
     <div class="shangwu_subTitle">【费用包含】：</div>
     <div class="shangwu_content">往返经济舱机票、燃油附加费（以实际收费标准为准<br>
@@ -781,15 +788,15 @@
     <div style='clear: both'></div>
     <div style="width: 100%;height: 10vh"></div>
 </div>
-    
+
 <div style="width: 100%;height: 3vw;background-color: black"></div>
 <div style="background-color: rgba(255, 255, 255, 0.8);width: 100%;height: 3vw"></div>
-    
 
 
 
 
-    
+
+
 
 <div style='clear: both'></div>
 
@@ -869,10 +876,10 @@
             //responsive code end
         };
         jssor_slider2_starter('slider2_container');
-        
+
         $(document).ready(function() {
 
-    
+
 
         var date = new Date();
 
@@ -882,7 +889,7 @@
 
         var y = date.getFullYear();
 
-        
+
 
         var calendar = $('#calendar').fullCalendar({
 
@@ -908,13 +915,13 @@
 
             events: [
 
-                
+
 
             ]
 
         });
 
-        
+
 
     });
 $('#roomNum').change(function(){
@@ -926,7 +933,7 @@ $('#roomNum').change(function(){
         roomRowNew.children().first().children().first().text('房间'+j);
         roomRowNew.removeClass('roomRow').appendTo('.yuding_row2');
     }
-        
+
 });
 </script>
 @endsection

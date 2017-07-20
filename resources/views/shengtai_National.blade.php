@@ -68,7 +68,7 @@
     </div>
   </div>
 
-  /*<div class="row" style="margin: 3vw;background-color: rgba(255, 255, 255, 0.9);padding: 2vw">
+  <div class="row" style="margin: 3vw;background-color: rgba(255, 255, 255, 0.9);padding: 2vw">
             <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12" id='calendar'></div>
             <div class=" col-md-8 col-sm-8 col-lg-8 col-xs-12" >
                 <div class="room" style="margin-bottom: 1vw">
