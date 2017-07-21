@@ -28,37 +28,43 @@
 	    </div>
     </div>
 
-<form class="container">
+<form class="container" id="calx">
+  <input type="text" hidden="" id="s" data-format="0" value="449.99" />
+  <input type="text"  hidden="" id="t" data-format="0" value="699.98" />
+  <input type="text"  hidden="" id="q" data-format="0" value="809.97" />
+  <input type="text" hidden=""  id="k" data-format="0" value="879.96" />
+  <input type="text" hidden=""  id="tax" data-format="0" value="0.13" />
+  <input type="text" hidden=""  id="service" data-format="0" value="299" />
 
     <div class="row setup-content" id="step-1">
         <div class="col-md-12">
             <div class="col-md-12 well text-center">
                 <h3> 第一步 - 填写信息</h2><hr>
                 <h3>1) 房间信息</h3><br>
-                
+
                 <div class="form-group ">
                   <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">单人间：</label>
                   <div class="col-md-4">
-                    <input class="form-control" type="text" value="0" id="example-text-input">
+                    <input class="form-control" type="text" id="single" data-format="0" value="0" id="example-text-input">
                   </div>
                 </div>
                 <div class="form-group ">
                   <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">双人间：</label>
                   <div class="col-md-4">
-                    <input class="form-control" type="text" value="0" id="example-text-input">
+                    <input class="form-control" type="text" id="twins" data-format="0" value="0" id="example-text-input">
                   </div>
                 </div>
                 <div style="margin-bottom: 52px;"></div><br>
                 <div class="form-group"  style='clear: both'>
                   <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">三人间：</label>
                   <div class="col-md-4">
-                    <input class="form-control" type="text" value="0" id="example-text-input">
+                    <input class="form-control" type="text" id="queen" data-format="0" value="0" id="example-text-input">
                   </div>
                 </div>
                 <div class="form-group ">
                   <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">四人间：</label>
                   <div class="col-md-4">
-                    <input class="form-control" type="text" value="0" id="example-text-input">
+                    <input class="form-control" type="text" id="king" data-format="0" value="0" id="example-text-input">
                   </div>
                 </div>
                 <div style="margin-bottom: 52px;"></div><br>
@@ -214,17 +220,18 @@
     <div class="col-md-12">
       <div class="row">
         <label for="">出發地：多倫多</label> |
-        <label for="">天數：6天</label> |
-        <label for="">出發日期：2017-07-28</label> |
-        <label for="">小計：$2205.00</label> |
+        <label for="">天數：待定</label> |
+        <label for="">出發日期：更新中</label> |
+        <label for="">小計：<span id="price" data-format="$ 0,0[.]00" data-formula="$s*$single+$t*$twins+$q*$queen+$k*$king"></span></label> |
         <label for="">折扣：$0.00</label> |
         <label for="">選項：$0.00</label> |
-        <label for="">稅：$286.65</label> |
-        <label for="">其它稅費：$220.50</label>
+        <label for="">团费：$299/人</label> |
+        <label for="">稅：<span id="aftertax" data-format="$ 0,0[.]00" data-formula="($s*$single+$t*$twins+$q*$queen+$k*$king)*$tax"></label> |
+        <label for="">其它稅費：暂无</label>
       </div>
     </div>
   </div>
-  <h4>總價	CAD 2712.15</h4>
+  <h4>總價	CAD <span id="totalprice" data-format="$ 0,0[.]00" data-formula="$price+$aftertax"></span></h4>
 <!-- </form> -->
 
 
@@ -305,7 +312,12 @@
 @stop
 
 @section('scripts')
-
+<script src="js/jquery-calx-1.1.9.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#calx').calx({});
+});
+</script>
 <script type="text/javascript">
 
 // Activate Next Step
