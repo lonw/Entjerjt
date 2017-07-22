@@ -253,17 +253,18 @@
                   <div class="col-md-12">
                     <div class="row">
                       <label for="">出發地：多倫多</label> |
-                      <label for="">天數：6天</label> |
-                      <label for="">出發日期：2017-07-28</label> |
-                      <label for="">小計：$2205.00</label> |
+                      <label for="">天數：待定</label> |
+                      <label for="">出發日期：更新中</label> |
+                      <label for="">小計：<span id="price" data-format="$ 0,0[.]00" data-formula="$s*$single+$t*$twins+$q*$queen+$k*$king"></span></label> |
                       <label for="">折扣：$0.00</label> |
                       <label for="">選項：$0.00</label> |
-                      <label for="">稅：$286.65</label> |
-                      <label for="">其它稅費：$220.50</label>
+                      <label for="">团费：$299/人</label> |
+                      <label for="">稅：<span id="aftertax" data-format="$ 0,0[.]00" data-formula="($s*$single+$t*$twins+$q*$queen+$k*$king)*$tax"></label> |
+                      <label for="">其它稅費：暂无</label>
                     </div>
                   </div>
                 </div>
-                <h4>總價	CAD 2712.15</h4>
+                <h4>總價	CAD <span id="totalprice" data-format="$ 0,0[.]00" data-formula="$price+$aftertax"></span></h4>
 
 <!--<form></form> -->
 
