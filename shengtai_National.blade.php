@@ -75,22 +75,22 @@
                     <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3" style="text-align: center">
                     <img src="/images/3beds.png" width="40px">
                         <p>四人间</p>
-                        <p>$219.99/人</p>
+                        <p>$240 每晚</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3" style="text-align: center">
                     <img src="/images/3beds.png" width="40px">
                         <p>三人间</p>
-                        <p>$269.99/人</p>
+                        <p>$300 每晚</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3" style="text-align: center">
                     <img src="/images/2beds.png" width="40px">
                         <p>双人间</p>
-                        <p>$349.99/人</p>
+                        <p>$400 每晚</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3" style="text-align: center">
                     <img src="/images/1bed.png" width="40px">
                         <p>单人间</p>
-                        <p>$449.99/人</p>
+                        <p>$500 每晚</p>
                     </div>
                     <div style='clear: both'></div>
                 </div> */
@@ -99,7 +99,13 @@
                 <form method="POST" action="{{route('yuding-post2')}}" enctype="multipart/form-data" style="padding: 2vw">
                 {{ csrf_field() }}
                     <div class="row">
-                      <input type="hidden" name="title" value="国家公园游">
+                      <input type="hidden" name="title" value="加拿大国家公园游">
+                      <input type="hidden" name="titlePrice" value="520">
+                      <input type="hidden" name="4R" value="240">
+                      <input type="hidden" name="3R" value="300">
+                      <input type="hidden" name="2R" value="400">
+                     <input type="hidden" name="1R" value="500">
+                     <input type="hidden" name="Rnight" value="8">
                     <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No1.png"></div>
                     <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5 form-group" style="margin-bottom: 10px;padding-left: 0;">
                     <label class="col-md-4 col-sm-4 col-lg-4 col-xs-4 control-label" for="travelDate" style="margin-top: 10px">出发日期</label>
@@ -123,6 +129,14 @@
                             <input type="number" class="form-control nobottom_pad"   placeholder="" name="numChild" required>
                             <label for="numBaby"  style="margin-top: 10px">婴儿人数</label>
                             <input type="number" class="form-control nobottom_pad" placeholder="" name="numBaby" required>
+                            <label for="numBaby"  style="margin-top: 10px">单人间</label>
+                            <input type="number" class="form-control nobottom_pad" placeholder="" name="num1R" >
+                            <label for="numAdult"  style="margin-top: 10px">双人间</label>
+                            <input type="number" class="form-control nobottom_pad" placeholder="" name="num2R" >
+                            <label for="numChild" style="margin-top: 10px ">三人间</label>
+                            <input type="number" class="form-control nobottom_pad"   placeholder="" name="num3R" >
+                            <label for="numBaby"  style="margin-top: 10px">四人间</label>
+                            <input type="number" class="form-control nobottom_pad" placeholder="" name="num4R" >
                             <!-- <label for="numBaby"  style="margin-top: 10px">姓名</label>
                             <input type="text" class="form-control nobottom_pad" placeholder="" name="gName" required>
                             <label for="numBaby"  style="margin-top: 10px">联系电话</label>
@@ -161,10 +175,10 @@
                         </div> -->
                     </div>
                     </div>
-                    <div class="form-group" style="float: right">
+                    <!-- <div class="form-group" style="float: right">
                         <label class="control-label" id="money" style="background-color: rgb(217,243,216);color: rgb(103,169,119);">总金额:</label>
                         <label class="control-label" id="peopleNum" style="background-color: rgb(217,243,216);color: rgb(103,169,119);">总人数:</label>
-                    </div><div style='clear: both'></div>
+                    </div><div style='clear: both'></div> -->
                     <button type="submit" class="btn btn-sm btn-yuding"
                             id="btnSave" style="float: right">立即预订
                     </button><div style='clear: both'></div>

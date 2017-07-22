@@ -33,42 +33,71 @@
     <div class="row setup-content" id="step-1">
         <div class="col-md-12">
             <div class="col-md-12 well text-center">
-                <h3> 第一步 - 填写信息{{$numTour['numAdult']}}</h2><hr>
+                <h3> 第一步 - 填写信息</h3><hr>
+                <h2>你已选择了{{$numTour['ProductName']}}|{{$numTour['Rnight']}}晚, {{$numTour['numAdult']}}位成人,{{$numTour['numChild']}}位儿童,{{$numTour['numBaby']}}位婴儿</h2>
+                <h1>注：婴儿不计入房间人数 {{$numTour['priceBase']}}|{{$numTour['priceRoom']}}</h1>
                 <h3>1) 房间信息</h3><br>
-
                 <div class="form-group ">
+                  <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">单人间：{{$numTour['num1R']}}</label>
+                  <div class="col-md-4">
+
+                  </div>
+                </div>
+                <div class="form-group ">
+                  <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">双人间：{{$numTour['num2R']}}</label>
+                  <div class="col-md-4">
+
+                  </div>
+                </div>
+                <div style="margin-bottom: 52px;"></div><br>
+                <div class="form-group"  style='clear: both'>
+                  <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">三人间：{{$numTour['num3R']}}</label>
+                  <div class="col-md-4">
+
+                  </div>
+                </div>
+                <div class="form-group ">
+                  <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">四人间：{{$numTour['num4R']}}</label>
+                  <div class="col-md-4">
+
+                  </div>
+                </div>
+                <div style="margin-bottom: 52px;"></div><br>
+                <hr>
+                <!-- <div class="form-group ">
                   <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">单人间：</label>
                   <div class="col-md-4">
-                    <input class="form-control" type="text" value="0{{$numTour['numAdult']}}" id="example-text-input">
+                    <input class="form-control" name:"1RP" type="text" value="" id="example-text-input">
                   </div>
                 </div>
                 <div class="form-group ">
                   <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">双人间：</label>
                   <div class="col-md-4">
-                    <input class="form-control" type="text" value="0{{$numTour['travelDate']}}" id="example-text-input">
+                    <input class="form-control" name:"2RP" type="text" value="" id="example-text-input">
                   </div>
                 </div>
                 <div style="margin-bottom: 52px;"></div><br>
                 <div class="form-group"  style='clear: both'>
                   <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">三人间：</label>
                   <div class="col-md-4">
-                    <input class="form-control" type="text" value="0{{$numTour['numChild']}}" id="example-text-input">
+              <input class="form-control" name:"3RP" type="text" value="" id="example-text-input">
                   </div>
                 </div>
                 <div class="form-group ">
                   <label for="example-text-input" class="col-md-1 col-form-label" style="font-size:1.5vh;float:left;top:7px;">四人间：</label>
                   <div class="col-md-4">
-                    <input class="form-control" type="text" value="0{{$numTour['numBaby']}}" id="example-text-input">
+                    <input class="form-control" name:"4RP" type="text" value="" id="example-text-input">
                   </div>
                 </div>
                 <div style="margin-bottom: 52px;"></div><br>
-                <hr>
+                <hr> -->
                 <h3>2) 预定信息</h3>
 <!-- <form> -->
 
     <div class="container col-xs-12 duplicater">
         <div class="row clearfix">
 		    <div class="col-md-12 column">
+          @for($i=0;$i<$numTour['numAdult']+$numTour['numChild']+$numTour['numBaby'];$i++)
 			    <table class="table table-bordered table-hover" id="tab_logic">
 				<thead>
 					<tr >
@@ -120,11 +149,12 @@
                     <tr id='addr1'></tr>
 				</tbody>
 			    </table>
+          @endfor
 		    </div>
-	    </div>
+	    <!-- </div>
 	    <a id="add_row" class="btn btn-warning pull-left">增加</a>
       <a id='delete_row' class="btn btn-danger" style="float:right;">减少</a>
-    </div>
+    </div> -->
 
       <h3>3) 联系方式</h3><br>
 <div class="container">
@@ -216,7 +246,7 @@
         <label for="">出發地：多倫多</label> |
         <label for="">天數：6天</label> |
         <label for="">出發日期：2017-07-28</label> |
-        <label for="">小計：$2205.00</label> |
+        <label for="">小计：（{{$numTour['priceBase']}}+{{$numTour['priceRoom']}}）</label> |
         <label for="">折扣：$0.00</label> |
         <label for="">選項：$0.00</label> |
         <label for="">稅：$286.65</label> |
