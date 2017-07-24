@@ -15,13 +15,13 @@
         <div style="margin: 5vw auto 0;"><img src="https://static.wixstatic.com/media/bfb291_d7e055e0a63d4e43ab67f5222519a53d~mv2.png/v1/fill/w_140,h_140,al_c,usm_0.66_1.00_0.01/bfb291_d7e055e0a63d4e43ab67f5222519a53d~mv2.png" style="height: 8vw;"><br><span class="shengtai_subTitle" style="border-top: 1px solid black;">生 态 游</span></div>
       </div>
       <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="padding: 0;">
-        <img src="/images/shengtai/10.jpg" style="height: 23vw;" />  
+        <img src="/images/shengtai/10.jpg" style="height: 23vw;" />
       </div><div style="clear:both;"></div>
         </div>
         <div style="width: 100%;">
       <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4" style="padding: 0;overflow: hidden;">
       <img src="/images/shengtai/13.jpg" style="height: 23vw;"/>
-        
+
       </div>
       <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8 shengtai_subContent" style="padding: 0;">
         <p style="">&emsp;&emsp;&emsp;&emsp;你是否厌倦了城市的喧嚣与繁杂？是否在快节奏的生活和工作中疲惫不堪？是否在社会上要戴上你不喜欢的假面？<br>
@@ -33,10 +33,10 @@
     <div class="row shengtai_row">
     	<div class="col-md-8 col-sm-8 col-lg-8 col-xs-12">
     		<div class="col-md-5 col-sm-5 col-lg-5 col-xs-12"><img src="/images/shengtai/1.jpg" style="width: 100%"></div>
-    		<div class="col-md-7 col-sm-7 col-lg-7 col-xs-12" style=""><p class="shengtai_subTitle">国家公园游 <img class="hot_icon" src="/images/shengtai/1.png" style=""><br>National park trip</p><p class="shengtai_content">出发地：上海​</p></div>
+    		<div class="col-md-7 col-sm-7 col-lg-7 col-xs-12" style=""><p class="shengtai_subTitle">国家公园游（8晚） <img class="hot_icon" src="/images/shengtai/1.png" style=""><br>National park trip</p><p class="shengtai_content">出发地：上海​</p></div>
     	</div>
     	<div class="shengtai_more" style="">
-    		<p class="shengtai_subTitle">C$ 2888</p><br>
+    		<p class="shengtai_subTitle">C$ 520 起</p><br>
     		<a class="shengtai_content shengtai_btn" href="shengtai_National" style="">详情</a>
     	</div>
     </div>
@@ -132,7 +132,7 @@
     <div style="width: 100%;padding: 5vw 0;"><img src="/images/shengtai/12.jpg" style="width: 100%; height: 10vw"></div>
 
 
-    
+
 
 
 </div>

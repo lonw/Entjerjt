@@ -45,7 +45,6 @@ class YudingController extends Controller
               'numPass'=>$request->input('gPP'),
               'ProductName'=>$request->input('title'),
 
-
             ]);
 
             $name = $request->input('gName');
@@ -67,7 +66,49 @@ class YudingController extends Controller
 
       \Mail::to($email)->send(new OrderProcess($name));
       // return redirect()->back();
+    }
 
+    public function yudingPost2(Request $request){
+
+      $numAdult=$request->input('numAdult');
+      $numChild=$request->input('numChild');
+      $numBaby=$request->input('numBaby');
+      $titlePrice=$request->input('titlePrice');
+      $num1R=$request->input('num1R');
+      $num2R=$request->input('num2R');
+      $num3R=$request->input('num3R');
+      $num4R=$request->input('num4R');
+      $P4R=$request->input('4R');
+      $P3R=$request->input('3R');
+      $P2R=$request->input('2R');
+      $P1R=$request->input('1R');
+      $Rnight=$request->input('Rnight');
+      $priceBase=$titlePrice*($numAdult+$numChild*0.3+$numBaby*0.1);
+      $priceRoom=($P4R*$num4R+$P3R*$num3R+$P2R*$num2R+$P1R*$num1R)*$Rnight;
+
+      $numTour= array(
+              'travelDate'=>$request->input('travelDate'),
+              'numAdult'=>$numAdult,
+              'numChild'=>$numChild,
+              'numBaby'=>$numBaby,
+            'ProductName'=>$request->input('title'),
+              '4R'=>$P4R,
+              '3R'=>$P3R,
+              '2R'=>$P2R,
+              '1R'=>$P1R,
+              'Rnight'=>$Rnight,
+              'titlePrice'=>$titlePrice,
+                'num1R'=>$request->input('num1R'),
+                  'num2R'=>$request->input('num2R'),
+                    'num3R'=>$request->input('num3R'),
+                      'num4R'=>$request->input('num4R'),
+                   'priceRoom'=>$priceRoom,
+                   'priceBase'=>$priceBase
+
+            );
+
+
+            return view('Booking')->with('numTour', $numTour);
     }
 
 }

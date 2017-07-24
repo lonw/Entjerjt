@@ -276,6 +276,14 @@ Route::get('booking', function () {
 Route::post("yudingpost", [
   "uses"=>"YudingController@yudingPost",
   'as'=>'yuding-post']);
+  
+Route::post("yudingpost2", [
+"uses"=>"YudingController@yudingPost2",
+'as'=>'yuding-post2']);
+
+Route::post("yudingpost3", [
+    "uses"=>"YudingController@yudingPost3",
+    'as'=>'yuding-post3']);
 
 Route::group(['middleware'=>'auth'],function(){
   Route::get('profile',[

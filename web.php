@@ -277,9 +277,9 @@ Route::post("yudingpost", [
   "uses"=>"YudingController@yudingPost",
   'as'=>'yuding-post']);
 
-  Route::post("yudingpost2", [
-    "uses"=>"YudingController@yudingPost2",
-    'as'=>'yuding-post2']);
+  Route::post("yudingposts", [
+    "uses"=>"YudingController@yudingPosts",
+    'as'=>'yudingposts']);
     Route::post("yudingpost3", [
       "uses"=>"YudingController@yudingPost3",
       'as'=>'yuding-post3']);

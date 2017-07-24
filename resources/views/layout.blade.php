@@ -53,29 +53,32 @@
 
         <!-- Styles -->
 
-        
+
         <link href="/css/jiatusiji.css" rel="stylesheet" type="text/css">
         <link href="/css/youxue.css" rel="stylesheet" type="text/css">
         <link href="/css/jiatu.css" rel="stylesheet" type="text/css">
          <link href="/css/sumerCamp.css" rel="stylesheet" type="text/css">
+         <style>
+         #form1 .field2 {
+          display: none;
+         }
 
-    
-      
+         </style>
 
-   
+
 
 
         <!--jquery slide library -->
        <!--  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/> -->
         <!-- Add the slick-theme.css if you want default styling -->
         <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/> -->
-        
+
         <!--fullsizable -->
-         
-         
+
+
     </head>
     <body id="top">
-        
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
