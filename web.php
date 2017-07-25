@@ -266,7 +266,6 @@ Route::get('booking', function () {
     'as'=>'signin'
   ]);
 
-
   Route::post('signin',[
     'uses'=>'UserController@postSignin',
     'as'=>'signin'
