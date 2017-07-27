@@ -61,7 +61,8 @@ return redirect()->back();
  public function getProfile(){
   $orders = Auth::user()->orders;
     $orders->transform(function($order, $key) {
-   //     $order->cart = unserialize($order->cart);
+      $order->detail = unserialize($order->detail);
+      $order->tourmate=unserialize($order->tourmate);
         return $order;
     });
     return view('profile', ['orders' => $orders]);

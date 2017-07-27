@@ -93,7 +93,7 @@
                         <p>$500 每晚</p>
                     </div>
                     <div style='clear: both'></div>
-                </div> */
+                </div>
                 <div style="background-color: rgba(252, 249, 226, 1)">
                 <h4 style="text-align: center">产品预订表</h4>
                 <form method="POST" action="{{route('yuding-post2')}}" enctype="multipart/form-data" style="padding: 2vw">
@@ -107,7 +107,7 @@
                      <input type="hidden" name="1R" value="500">
                      <input type="hidden" name="Rnight" value="8">
                     <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No1.png"></div>
-                    <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8 form-group" style="margin-bottom: 10px;padding-left: 0;">
+                    <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11 form-group" style="margin-bottom: 10px;padding-left: 0;">
                     <label class="col-md-4 col-sm-4 col-lg-4 col-xs-4 control-label" for="travelDate" style="margin-top: 10px">出发日期</label>
                     <input type="text" class="form-control nobottom_pad" id="start" placeholder="" name="travelDate"  required></div>
 
@@ -117,27 +117,34 @@
                             <input type="number" class="form-control nobottom_pad" id="roomNum" placeholder="" name="roomNum"  required>
                         </div>
                     </div> -->
-                    </div>
+                  </div><hr>
                     <div class="row">
                     <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" ><img src="/images/No2.png"></div>
                     <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11 yuding_row2">
                     <div class="roomRow">
+
+
                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 form-group" style="margin-bottom: 10px;padding-left: 0;">
+                        <div class="col-md-8" style="border-radius: 3px;box-shadow: 1px 1px 10px rgba(0, 0, 0, .3);border-style: solid;border-width: 1px;border-color: #CACACA;padding-bottom: 20px;">
                           <div class="col-md-6">
                             <label for="numBaby"  style="margin-top: 10px">单人间</label>
-                            <input type="number" class="form-control nobottom_pad" placeholder="" name="num1R" required>
+                            <input type="number" class="form-control nobottom_pad" placeholder="" name="num1R" value="0" id="num1R" required>
                             <label for="numAdult"  style="margin-top: 10px">双人间</label>
-                            <input type="number" class="form-control nobottom_pad" placeholder="" name="num2R" required>
-                            <label for="numChild" style="margin-top: 10px ">三人间</label>
-                            <input type="number" class="form-control nobottom_pad"   placeholder="" name="num3R" required>
-                            <label for="numBaby"  style="margin-top: 10px">四人间</label>
-                            <input type="number" class="form-control nobottom_pad" placeholder="" name="num4R" required>
+                            <input type="number" class="form-control nobottom_pad" placeholder="" name="num2R"  value="0" id="num2R" required>
                           </div>
                           <div class="col-md-6">
+                            <label for="numChild" style="margin-top: 10px ">三人间</label>
+                            <input type="number" class="form-control nobottom_pad"   placeholder="" name="num3R"  value="0" id="num3R" required>
+                            <label for="numBaby"  style="margin-top: 10px">四人间</label>
+                            <input type="number" class="form-control nobottom_pad" placeholder="" name="num4R"  value="0" id="num4R" required>
+                          </div>
+
+                        </div>
+                          <div class="col-md-4" style="border-radius: 3px;box-shadow: 1px 1px 10px rgba(0, 0, 0, .3);border-style: solid;border-width: 1px;border-color: #CACACA;padding-bottom: 20px;">
                             <label for="numAdult"  style="margin-top: 10px">成人人数</label>
-                            <input type="number" class="form-control nobottom_pad" placeholder="" name="numAdult" required>
+                            <input type="number" class="form-control nobottom_pad" placeholder="" name="numAdult"  value="0" id="numAdult"  required>
                             <label for="numChild" style="margin-top: 10px ">儿童人数</label>
-                            <input type="number" class="form-control nobottom_pad"   placeholder="" name="numChild" required>
+                            <input type="number" class="form-control nobottom_pad"   placeholder="" name="numChild"  value="0" id="numChild" required>
                           </div>
 
 
@@ -339,7 +346,6 @@
 
 <script type="text/javascript">
     $(function(){
-
       $('.fanhuibtn').hover(function(){
         $('.triangle-left').css('border-right','40px solid rgba(188, 182, 181,1)');
         $('.returnBtn').css('background-color','rgba(188, 182, 181,1)');
@@ -347,7 +353,6 @@
         $('.triangle-left').css('border-right','40px solid rgba(48, 197, 227,1)');
         $('.returnBtn').css('background-color','rgba(48, 197, 227,1)');
         });
-
         var scroller = $('.scroller div.innerScrollArea');
         var preBtn = $('.sprev');
         var nextBtn = $('.snext');
@@ -362,7 +367,6 @@
         });
         var fullW = curX / 2;
         var viewportW = scroller.width();
-
         // Scrolling speed management
         var controller = {curSpeed:0, fullSpeed:2};
         var $controller = $(controller);
@@ -372,7 +376,6 @@
                 duration = 600;
             $controller.stop(true).animate({curSpeed:newSpeed}, duration);
         };
-
         // Pause on hover
         imgNow.hover(function(){
             var $this = $(this);
@@ -381,9 +384,6 @@
             var $this = $(this);
             $this.css('opacity', 1);
         });
-
-
-
         preBtn.hover(function(){
           tweenToNewSpeed(controller.fullSpeed);
         }, function(){
@@ -394,9 +394,7 @@
         }, function(){
             tweenToNewSpeed(0);
         });
-
         // Scrolling management; start the automatical scrolling
-
         var doScroll = function()
         {
             var curX = scroller.scrollLeft();
@@ -407,12 +405,9 @@
         };
         setInterval(doScroll, 20);
         //tweenToNewSpeed(controller.fullSpeed);
-
-
         $('a.fullsizable').fullsizable({
         detach_id: 'fullContainer'
       });
-
       $(document).on('fullsizable:opened', function(){
         $("#jquery-fullsizable").swipe({
           swipeLeft: function(){
@@ -428,51 +423,25 @@
       });
     });
     $(document).ready(function() {
-
-
-
         var date = new Date();
-
         var d = date.getDate();
-
         var m = date.getMonth();
-
         var y = date.getFullYear();
-
-
-
         var calendar = $('#calendar').fullCalendar({
-
             header: {
-
                 left: '',
-
                 center: 'title',
-
                 right: 'prev,next today'
-
             },
-
             selectable: true,
-
             selectHelper: true,
-
             select: function(start, end, allDay) {
                 $('#start').val(start);
             },
-
             editable: true,
-
             events: [
-
-
-
             ]
-
         });
-
-
-
     });
 $('#roomNum').change(function(){
         $('.yuding_row2').html($('.roomRow').clone());
@@ -483,7 +452,23 @@ $('#roomNum').change(function(){
         roomRowNew.children().first().children().first().text('房间'+j);
         roomRowNew.removeClass('roomRow').appendTo('.yuding_row2');
     }
+});
+
+$('#btnSave').click(function () {
+  var numA=parseInt(document.getElementById("numAdult").value);
+  var numC=parseInt(document.getElementById("numChild").value);
+  var num1R=parseInt(document.getElementById("num1R").value);
+  var num2R=parseInt(document.getElementById("num2R").value)*2;
+  var num3R=parseInt(document.getElementById("num3R").value)*3;
+  var num4R=parseInt(document.getElementById("num4R").value)*4;
+  var TotalPeople=numA+numC;
+  var TotalRoom=num1R+num2R+num3R+num4R;
+  if(TotalPeople>TotalRoom){
+    alert("你的总人数为:"+TotalPeople+",请选择正确的房间数目");
+    return false;
+  }
 
 });
+
 </script>
 @endsection
