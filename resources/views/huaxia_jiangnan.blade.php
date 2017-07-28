@@ -2,8 +2,8 @@
 @section('content')
 @include('header')
 
-    <div style="position: fixed;z-index: -1000;top: 0;">
-    <img src="/images/huaxia/east/jiangnan/backgroud.jpg">
+    <div style="position: fixed;z-index: -1000;top: 0;width:100%;">
+    <img src="/images/huaxia/east/jiangnan/backgroud.jpg" style="width:100%;">
     </div>
     <div style="position: fixed;z-index: -999;top: 0;background: rgba(255,255,255,0.6);width: 100%;height: 100%">
     </div>
