@@ -96,15 +96,22 @@
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
 
             <div  style="color: black;font-weight: bold;font-size: 1.8vw">出发城市：多伦多<br><br>
-            ​行程天数：9天<br><br> ​
+            ​行程天数：12天<br><br> ​
             行程概要：<br>
-            D1：多伦多-上海-昆明<br>
-            D2：昆明<br>
-            D3 ：昆明-大理<br>
-            D4 ：大理<br>
-            D5：大理-丽江<br>
-            D6：丽江-香格里拉<br>
-            D7：香格里拉<br>D8：香格里拉-上海<br>D9：上海-多伦多</div>
+            D1: 多伦多-上海-昆明<br>
+            D2: 抵达昆明<br>
+            D3: 昆明<br>
+            D4: 昆明-大理<br>
+            D5: 大理<br>
+            D6: 大理-丽江<br>
+            D7: 丽江-香格里拉<br>
+						D8: 香格里拉<br>
+						D9: 香格里拉-上海<br>
+						D10:上海-绍兴-上海<br>
+						D11:上海<br>
+						D12:上海<br>
+						D13:上海-多伦多<br>
+						</div>
         </div>
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6" style="background-image: url(/images/huaxia/westSouth/xianggelila/2.png);height: 25vw;margin-top: 5vw;background-size: 100% 100%"></div>
     </div>
@@ -312,6 +319,7 @@
     <div style="border-bottom:1px solid black">
     <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
         <img src="/images/huaxia/east/shaoxin/5.png" style="width: 8vw;height: 5vw;">
+				<img src="/images/huaxia/east/shaoxin/6.png" style="width: 8vw;height: 5vw;">
     </div>
     <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
         <div class="shangwu_title" style="text-align: center;">多 伦 多&emsp;<img src="/images/huaxia/east/shaoxin/3.png" style="width: 5vw;height: 5vw;transform:rotate(313deg);">&emsp;上  海&emsp;<img src="/images/huaxia/east/shaoxin/3.png" style="width: 5vw;height: 5vw;transform:rotate(313deg);">&emsp;昆  明 </div>
@@ -329,7 +337,7 @@
     <div style="border-bottom:1px solid black">
     <div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-            <img src="/images/huaxia/east/shaoxin/6.png" style="width: 8vw;height: 5vw;">
+            <img src="/images/huaxia/east/shaoxin/7.png" style="width: 8vw;height: 5vw;">
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
             <div class="shangwu_title" style="text-align: center;">昆   明</div></div>
@@ -399,7 +407,7 @@
     <div style="border-bottom:1px solid black">
     <div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-            <img src="/images/huaxia/east/shaoxin/7.png" style="width: 8vw;height: 5vw;">
+            <img src="/images/huaxia/east/shaoxin/8.png" style="width: 8vw;height: 5vw;">
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
             <div class="shangwu_title" style="text-align: center;">昆明&emsp;<img src="/images/huaxia/east/shaoxin/12.png" style="width: 5vw;height: 5vw;margin-bottom: 2vw;">&emsp;大理</div>
@@ -464,7 +472,7 @@
     <div style="border-bottom:1px solid black">
     <div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-            <img src="/images/huaxia/east/shaoxin/8.png" style="width: 8vw;height: 5vw;">
+            <img src="/images/huaxia/east/shaoxin/9.png" style="width: 8vw;height: 5vw;">
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
             <div class="shangwu_title" style="text-align: center;">大  理</div>
@@ -539,7 +547,7 @@
     <div style="border-bottom:1px solid black">
     <div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-            <img src="/images/huaxia/east/shaoxin/9.png" style="width: 8vw;height: 5vw;">
+            <img src="/images/huaxia/east/shaoxin/10.png" style="width: 8vw;height: 5vw;">
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
             <div class="shangwu_title" style="text-align: center;">大理&emsp;<img src="/images/huaxia/east/shaoxin/12.png" style="width: 5vw;height: 5vw;margin-bottom: 2vw;">&emsp;丽江 </div></div>
@@ -601,7 +609,7 @@
     <div style="border-bottom:1px solid black">
     <div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-            <img src="/images/huaxia/east/shaoxin/10.png" style="width: 8vw;height: 5vw;">
+            <img src="/images/huaxia/east/shaoxin/11.png" style="width: 8vw;height: 5vw;">
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
             <div class="shangwu_title" style="text-align: center;">丽  江&emsp;<img src="/images/huaxia/east/shaoxin/3.png" style="width: 5vw;height: 5vw;transform:rotate(313deg);">&emsp;香格里拉</div></div>
@@ -652,7 +660,7 @@
     <div style="border-bottom:1px solid black">
     <div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-            <img src="/images/huaxia/east/shaoxin/11.png" style="width: 8vw;height: 5vw;">
+            <img src="/images/huaxia/east/shaoxin/20.png" style="width: 8vw;height: 5vw;">
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
             <div class="shangwu_title" style="text-align: center;">香格里拉</div></div>
@@ -719,13 +727,16 @@
     <div style="border-bottom:1px solid black">
     <div>
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-            <img src="/images/huaxia/east/shaoxin/10.png" style="width: 8vw;height: 5vw;">
+            <img src="/images/huaxia/east/shaoxin/21.png" style="width: 8vw;height: 5vw;">
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
             <div class="shangwu_title" style="text-align: center;">香格里拉&emsp;<img src="/images/huaxia/east/shaoxin/3.png" style="width: 5vw;height: 5vw;transform:rotate(313deg);">&emsp;上  海</div></div>
     </div>
     <div style="border-bottom:1px dotted black">
-        <div style="padding: 3vh"></div>
+        <div style="padding: 3vh"></div><br><br><br><br><br>
+		<div style="background-color: rgba(132, 180, 195, 1);"><center><span  style="padding: 2vw 3vw 2vw 4vw;font-size:3vh;">暂别藏文化，让我们飞往繁华的魔都------上海</span></center>
+    <div style="padding: 0vh"></div>
+    </div>
         <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
         <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
         <div class="shangwu_subTitle">景点介绍：</div>
@@ -735,10 +746,10 @@
 
         </div>
         <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10">
-        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw"> 上海是一座充满着时代气息的城市，此行您所下榻的地方自然也不例外。浦江饭店，这家创造了远东地区无数个第一的“神话”酒店。您的体验将与当年的卓别林、爱因斯坦他们无二。请您在浦江饭店好好休息，准备第二日绍兴的黄酒盛宴吧！</div>
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw"> 上海是一座充满着时代气息的城市，此行您所下榻的地方自然也不例外。浦江饭店，这家创造了远东地区无数个第一的“神话”酒店。您的体验将与当年的卓别林、爱因斯坦他们无二。请您就浦江饭店好好休息，准备第二日的绍兴之旅吧！</div>
         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12" style="padding-top: 2vw" >
-            <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12"><div style="background-image: url(/images/huaxia/east/jiangnan/11-14/35.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;margin: 1vw;height: 100% width:100%"></div></div>
-            <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12"><div style="background-image: url(/images/huaxia/east/jiangnan/11-14/26.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;margin: 1vw;height: 100% width:100%"></div></div>
+            <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12"><div style="background-image: url(/images/huaxia/westSouth/xianggelila/60.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;margin: 1vw;height: 100% width:100%"></div></div>
+            <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12"><div style="background-image: url(/images/huaxia/westSouth/xianggelila/61.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;margin: 1vw;height: 100% width:100%"></div></div>
             <div style='clear: both'></div>
             <div style="padding: 3vh"></div>
         </div></div>
@@ -753,7 +764,7 @@
                     <img src="/images/huaxia/east/shaoxin/19.png" style="width: 100%">
                 </div>
                 <div class="col-md-7 col-sm-7 col-lg-7 col-xs-7 shangwu_content" style="color: #2b1df2">
-                    明日将要离别华夏，晚上去和她聊会天，说声再见吧。
+                    近在眼前的外滩不妨去走一遭，但是要注意休息哦。
                 </div>
             </div>
             <div class="col-md-9 col-sm-9 col-lg-9 col-xs-9" style="border: 1px solid black;border-radius: 1vw;padding: 3vw 0;box-shadow: 2px 2px 1px #888888;">
@@ -761,18 +772,240 @@
                     <img src="/images/huaxia/3.jpg" style="width: 100%">
                 </div>
                 <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
-                    <img src="/images/huaxia/westNorth/xian/9.jpg" style="height: 12vw">
+                    <img src="images/huaxia/westSouth/xianggelila/62.jpg" style="height: 12vw">
                 </div>
-                <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 shangwu_content" style="margin-top: 1vw"> 做为国际大都市，上海的美食也必定缺不了各国的风味美食。现在，“换上你笔挺的西装，系上你最好的领带”，去领略外滩5号的美食！</div>
+                <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 shangwu_content" style="margin-top: 1vw"> 上海小南国始终用心经营上海味道，坚持为顾客带来“纯正上海体验”，品尝上海菜的同时，更让他们品味到食物背后蕴藏的上海文化。</div>
             </div><div style='clear: both'></div>
         </div>
         <div style="padding: 3vh"></div>
     </div>
+		<div style="padding: 3vh"></div>
+		<div style="border-bottom:1px solid black">
+		<div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
+						<img src="/images/huaxia/east/shaoxin/22.png" style="width: 8vw;height: 5vw;">
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
+						<div class="shangwu_title" style="text-align: center;">上  海&emsp;<img src="/images/huaxia/east/shaoxin/4.png" style="width: 6vw;height: 6vw;">&emsp;绍  兴</div></div>
+		</div>
+
+		<div style="border-bottom:1px dotted black">
+				<div style="padding: 3vh"></div>
+				<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
+				<div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+				<div class="shangwu_subTitle">景点介绍：</div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
+						<div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/30.png" style="width: 94%;margin-right: 6%;"></div>
+
+
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw">
+				<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw;padding-top: 0"> 书圣故里历史街区是目前市区历史风貌保存最完整的区域，这里荟萃着影响中华文化进程的绍兴名士“书圣”王羲之和“学界泰斗”蔡元培的故里。故里布局为前街后河，有众多名胜古迹，这里山明水秀，台门里弄尽显浓郁的江南风情，正是“水乡风情看绍兴，绍兴缩影在书圣”。
+					<br><br>鲁迅故里风景区是鲁迅及其祖辈生活过的地方，这里不仅有鲁迅笔下《孔乙己》中被提及的咸亨酒店，还有我们倍感亲切的百草园和三味书屋。三味书屋里仍然按原样布置，书屋内刻在鲁迅先生刻在书桌上的“早”字仍能依稀可见。百草园是鲁迅童年玩耍的地方。这里是一个历史与人文重叠的角落。
+</div>
+				<div class="col-md-5 col-sm-5 col-lg-5 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/55.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+				</div>
+				<div class="col-md-5 col-sm-5 col-lg-5 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/56.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;margin-left:10px;" >
+				</div></div>
+		</div><div style='clear: both'></div>
+		</div>
+		<div>
+				<div style="padding: 3vh"></div>
+				<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
+				<div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;padding-top: 0">
+						<div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/30.png" style="width: 94%;margin-right: 6%;"></div>
+
+
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10">
+				<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw; padding-top: 0"> 中国黄酒，天下一绝，是华夏民族的国粹。绍兴黄酒是中国黄酒的杰出代表，也是绍兴的“金名片”，其酿制技艺更是首批国家级非物质文化遗产保护对象。前往中国黄酒博物馆，深度体验绍兴黄酒的悠久历史，技艺精湛，得天独厚的酿造条件和卓越的内在品质，闻名中外，被誉为东方名酒之冠。</div>
+				<div class="col-md-5 col-sm-5 col-lg-5 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/57.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+				</div>
+				<div class="col-md-5 col-sm-5 col-lg-5 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/58.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;margin-left:10px;" >
+				</div>div>
+				</div><div style='clear: both'></div>
+		</div>
+
+				<div>
+						<div style="padding: 3vh"></div>
+						<div class="col-md-3 col-sm-3 col-lg-3 col-xs-3">
+								<div style="padding: 3vw"></div>
+								<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5" style="padding: 0;">
+
+								</div>
+
+						</div>
+						<div class="col-md-9 col-sm-9 col-lg-9 col-xs-9" style="border: 1px solid black;border-radius: 1vw;padding: 3vw 0;box-shadow: 2px 2px 1px #888888;">
+								<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" style="margin: 3vw 1vw;padding: 1vw">
+										<img src="/images/huaxia/3.jpg" style="width: 100%">
+								</div>
+								<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
+										<img src="/images/huaxia/westSouth/xianggelila/59.jpg" style="height: 12vw">
+								</div>
+								<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 shangwu_content" style="margin: 1vw"> 喝绍兴黄酒，贵在品，并不是一大口一干而尽，而先闻再是酩，一小口一小口的品味这甘露。喝绍兴黄酒，配上一叠茴香豆和臭豆腐，个中滋味尽在不言中。</div>
+						</div><div style='clear: both'></div>
+				</div>
+				<div style="padding: 3vh"></div>
+		</div>
+		<div style="padding: 3vh"></div>
+		<div style="border-bottom:1px solid black">
+		<div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
+						<img src="/images/huaxia/east/shaoxin/23.png" style="width: 8vw;height: 5vw;">
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
+						<div class="shangwu_title" style="text-align: center;">上海</div></div>
+		</div>
+
+		<div style="border-bottom:1px dotted black">
+				<div style="padding: 3vh"></div>
+				<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
+				<div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+				<div class="shangwu_subTitle">景点介绍：</div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
+						<div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/17.png" style="width: 94%;margin-right: 6%;"></div>
+
+
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw">
+				<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw;padding-top: 0">走出浦江，映入您眼帘的就是这座上海现代化与工业化的象征------外白渡桥。全中国第一座全钢结构铆接桥梁和仅存的不等高桁架结构桥。
+					<br><br>和平饭店是上海近代建筑史上第一幢现代派建筑。每一间房间都有着属于他的传奇。如果说配合着老爵士酒吧里演奏的上世纪三四十年代欧美爵士流行曲，相信会让您在情动之时回到那老上海公租界的奢靡时代。
+					<br><br>法国梧桐栽种一个世纪前，是法国人从万里之外将这些法国梧桐带到了上海霞飞路落地生根的。百年后的今天，当年的小树苗已经成为了一棵棵参天大树，更衬得现在的淮海中路比起当年名噪一时的霞飞路更多了一份沉淀和从容。
+				</div>
+				<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/63.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+				</div>
+				<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/64.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+				</div>
+				<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/65.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+				</div></div>
+		</div><div style='clear: both'></div>
+		</div>
+		<div>
+				<div style="padding: 3vh"></div>
+				<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
+				<div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;padding-top: 0">
+						<div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/17.png" style="width: 94%;margin-right: 6%;"></div>
+
+
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10">
+				<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw; padding-top: 0">花园饭店曾经是陈毅元帅的官邸，超过55000平米的花园绿地。这里的的每幢别墅都陈列着精雕细刻的、具有民族特色的古董，显得富丽堂皇、高雅别致，独家呈现20世纪初黄金时代老上海的雍容华贵。
+				<br><br>在繁华的淮海路上有着这样一处闹中取静的“桃源”，这座新巴洛克风格的法国宫廷建筑曾是上世纪旧上海法租界名流荟萃，辉煌一时的最主要社交场所---------法国俱乐部。
+				<br><br>您是否以为香港的跑马场是最早的？其实不然甚至可以说香港的跑马场是以他为标杆的。他就是人民广场，这个曾经远东地区最著名的跑马场，这个曾经各国贵族集会之地，这个凝聚了老上海政治、经济和文化的“活历史”。
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/65.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/66.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/67.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+			</div></div>
+				</div><div style='clear: both'></div>
+		</div>
+
+				<div>
+						<div style="padding: 3vh"></div>
+						<div class="col-md-3 col-sm-3 col-lg-3 col-xs-3">
+								<div style="padding: 3vw"></div>
+								<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5" style="padding: 0;">
+										<img src="/images/huaxia/east/shaoxin/19.png" style="width: 100%">
+								</div>
+								<div class="col-md-7 col-sm-7 col-lg-7 col-xs-7 shangwu_content" style="color: #2b1df2">
+										饭后可以考虑逛一逛南京路
+								</div>
+						</div>
+						<div class="col-md-9 col-sm-9 col-lg-9 col-xs-9" style="border: 1px solid black;border-radius: 1vw;padding: 3vw 0;box-shadow: 2px 2px 1px #888888;">
+								<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" style="margin: 3vw 1vw;padding: 1vw">
+										<img src="/images/huaxia/3.jpg" style="width: 100%">
+								</div>
+								<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
+										<img src="/images/huaxia/westSouth/xianggelila/54.jpg" style="height: 12vw">
+								</div>
+								<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 shangwu_content" style="margin: 1vw">游览完人民广场后，在南京路自由活动，南京路上可不仅只有四大百货和数百家商铺。这里面也是“吃货”的天堂哟，各式各样的餐馆、美味可口的小吃街。我们不妨去品尝一番？</div>
+						</div><div style='clear: both'></div>
+				</div>
+				<div style="padding: 3vh"></div>
+		</div>
+		<div style="padding: 3vh"></div>
+		<div style="border-bottom:1px solid black">
+		<div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
+						<img src="/images/huaxia/east/shaoxin/24.png" style="width: 8vw;height: 5vw;">
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
+						<div class="shangwu_title" style="text-align: center;">上海</div></div>
+		</div>
+
+		<div style="border-bottom:1px dotted black">
+				<div style="padding: 3vh"></div>
+				<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
+				<div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+				<div class="shangwu_subTitle">景点介绍：</div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;">
+						<div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/17.png" style="width: 94%;margin-right: 6%;"></div>
+
+
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" style="padding-top: 2vw">
+				<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw;padding-top: 0">我们都知道上海有十大著名的花园洋房，但是你知道哪座是首尊么？——丁香花园。可能你没听说过这个名字，但是这间房子的主人你肯定是如雷贯耳。那就是与俾斯曼，格兰特并称“十九世纪世界三大伟人”之一的李鸿章。
+				<br><br>田子坊坐落在陆家嘴西边，她没有高楼大厦，没有汽车高架，她有的只是一栋栋的上海式老房子。或许您会在这里驻足，喝一杯咖啡，逛一逛小店，书吧看一会书，享受一个恬静的下午时光。</div>
+				<div class="col-md-5 col-sm-5 col-lg-5 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/49.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+				</div>
+				<div class="col-md-5 col-sm-5 col-lg-5 col-xs-12" style="background-image: url(/images/huaxia/westSouth/xianggelila/50.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;margin-left:10px;" >
+				</div></div>
+		</div><div style='clear: both'></div>
+		</div>
+		<div>
+				<div style="padding: 3vh"></div>
+				<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1"></div>
+				<div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2" style="padding: 2vw;padding-top: 0">
+						<div style="border-right: 1px solid #3d9be9;padding: 1.5vw"><img src="/images/huaxia/17.png" style="width: 94%;margin-right: 6%;"></div>
+
+
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10">
+				<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 shangwu_content" style="font-weight: bold;padding: 2vw; padding-top: 0">“远东最大的码头”“上海的水上门户”，等等数不清的过往荣誉与写不完的不朽传奇，十六铺码头承载着上海人文历史的记忆。感受下吧，上海动荡时期唯一一个属于华人的避风港湾。
+				<br><br>陆家嘴的夜晚是“不夜城”上海最好的象征。他坐拥“世界三大高度”，他是中国最具影响力的金融中心。就让我们站在上海中心大厦的顶楼，去俯瞰下整个中国金融的心脏吧！</div>
+				<div class="col-md-5 col-sm-5 col-lg-5 col-xs-12" style="padding-top: 5vw;background-image: url(/images/huaxia/westSouth/xianggelila/51.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;" >
+				</div>
+				<div class="col-md-5 col-sm-5 col-lg-5 col-xs-12" style="padding-top: 5vw;background-image: url(/images/huaxia/westSouth/xianggelila/52.jpg);background-repeat: no-repeat;height: 15vw;background-size: cover;background-position: 50% 50%;margin-left:10px;" >
+				</div></div>
+				</div><div style='clear: both'></div>
+		</div>
+
+				<div>
+						<div style="padding: 3vh"></div>
+						<div class="col-md-3 col-sm-3 col-lg-3 col-xs-3">
+								<div style="padding: 3vw"></div>
+								<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5" style="padding: 0;">
+										<img src="/images/huaxia/east/shaoxin/19.png" style="width: 100%">
+								</div>
+								<div class="col-md-7 col-sm-7 col-lg-7 col-xs-7 shangwu_content" style="color: #2b1df2">
+										明日将要离别华夏，晚上去和她聊会天，说声再见吧。
+								</div>
+						</div>
+						<div class="col-md-9 col-sm-9 col-lg-9 col-xs-9" style="border: 1px solid black;border-radius: 1vw;padding: 3vw 0;box-shadow: 2px 2px 1px #888888;">
+								<div class="col-md-1 col-sm-1 col-lg-1 col-xs-1" style="margin: 3vw 1vw;padding: 1vw">
+										<img src="/images/huaxia/3.jpg" style="width: 100%">
+								</div>
+								<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
+										<img src="/images/huaxia/westSouth/xianggelila/53.jpg" style="height: 12vw">
+								</div>
+								<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 shangwu_content" style="margin: 1vw">做为国际大都市，上海的美食也必定缺不了各国的风味美食。现在，“换上你笔挺的西装，系上你最好的领带”，去领略外滩5号的美食！</div>
+						</div><div style='clear: both'></div>
+				</div>
+				<div style="padding: 3vh"></div>
+		</div>
     <div style="padding: 3vh"></div>
 
      <div >
     <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-        <img src="/images/huaxia/east/shaoxin/20.png" style="width: 8vw;height: 5vw;">
+        <img src="/images/huaxia/east/shaoxin/25.png" style="width: 8vw;height: 5vw;">
     </div>
     <div class="col-md-10 col-sm-10 col-lg-10 col-xs-10" >
         <div class="shangwu_title" style="text-align: center;">上  海&emsp;<img src="/images/huaxia/east/shaoxin/3.png" style="width: 5vw;height: 5vw;transform:rotate(313deg);">&emsp;多 伦 多</div>
