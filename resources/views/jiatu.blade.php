@@ -47,8 +47,21 @@
         </div></a>
         <div style='clear: both'></div>
     </div>
+    <div class="comWrapper" style="width:80%; padding-top: 3%;">
+        <div class="comTitle" style="margin-bottom:0px;"><img src="/images/1.png" ></div>
+        <div class="" style="font-size: 5vh;color:red;"><center>2017年特辑</center></div>
+    </div>
+      <a href="fengye">
+    <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 ">
+        <center><img class="" src="/images/main_page/teji/4.png" style="width:  60%;"></center>
+
+    </div></a>
+      <a href="qiuji">
+    <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 ">
+        <center><img class="" src="/images/main_page/teji/5.png" style="width:  60%;"></center>
+
+    </div></a>
     <div style='clear: both'></div>
 </div>
 @include('footer')
 @stop
-

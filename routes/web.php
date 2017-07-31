@@ -249,6 +249,19 @@ Route::get('contact', function () {
 Route::get('booking', function () {
     return view('booking');
 });
+Route::get('teji', function () {
+    return view('teji');
+});
+Route::get('yinxiang', function () {
+    return view('yinxiang');
+});
+Route::get('fengye', function () {
+    return view('fengye');
+});
+Route::get('qiuji', function () {
+    return view('qiuji');
+});
+
 
 
  Route::group(['middleware'=>'guest'],function(){
@@ -276,7 +289,7 @@ Route::get('booking', function () {
 Route::post("yudingpost", [
   "uses"=>"YudingController@yudingPost",
   'as'=>'yuding-post']);
-  
+
 Route::post("yudingpost2", [
 "uses"=>"YudingController@yudingPost2",
 'as'=>'yuding-post2']);

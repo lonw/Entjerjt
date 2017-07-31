@@ -5714,6 +5714,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     border: 1px solid #dddddd;
     border-bottom-color: transparent;
     cursor: default;
+    border-top: solid #4479a0;
 }
 
 .nav-tabs.nav-justified

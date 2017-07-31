@@ -15,7 +15,7 @@
                     <li><a href="yangsheng" {{{ (Request::is('yangsheng') ? 'class=active' : '') }}} >养生游</a></li>
                     <li><a href="yiyou" {{{ (Request::is('yiyou') ? 'class=active' : '') }}} >医游</a></li>
                     <li><a href="tanxian" {{{ (Request::is('tanxian') ? 'class=active' : '') }}} >探险游</a></li>
-                    <li><a href="jiatu" {{{ (Request::is('jiatu') ? 'class=active' : '') }}} >迦途四季</a></li>
+                    <li><a href="teji" {{{ (Request::is('teji') ? 'class=active' : '') }}} >迦途特辑</a></li>
                     <li><a href="youxue" {{{ (Request::is('youxue') ? 'class=active' : '') }}} >游学·留学</a></li>
                     <li><a href="shangwu" {{{ (Request::is('shangwu') ? 'class=active' : '') }}} >商务</a></li>
                     <li><a href="huaxia" {{{ (Request::is('huaxia') ? 'class=active' : '') }}} >华夏精品</a></li>
