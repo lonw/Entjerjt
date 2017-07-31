@@ -87,7 +87,7 @@
         </div>
     </div>
     <div class="col-md-7 col-sm-7 col-lg-7 col-xs-12" style="padding-left: 4vw;padding-top:5vh;">
-        <div style="color: #333;font-size: 4vw;text-align: center;"><strong>迦途四季·枫叶尊享</strong>​</div>
+        <div style="color: #333;font-size: 4vw;text-align: center;"><strong>迦途四季·秋季</strong>​</div>
         <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
 
 
@@ -130,7 +130,7 @@
 								<form method="POST" action="{{route('yuding-post2')}}" enctype="multipart/form-data" style="padding: 2vw">
                 {{ csrf_field() }}
                     <div class="row">
-                      <input type="hidden" name="title" value="迦途四季·枫叶尊享:雙季特辑">
+                      <input type="hidden" name="title" value="迦途四季·秋季">
                       <input type="hidden" name="titlePrice" value="520">
                       <input type="hidden" name="4R" value="240">
                       <input type="hidden" name="3R" value="300">
@@ -220,8 +220,8 @@
 		                        <div class="panel-body">
 		                            <div class="tab-content">
 		                                <div class="tab-pane fade active in" id="tab1primary" style="background-color: #fff;">
-																			<img class="img-responsive" src="/images/jiatu/fengye/2.jpg" alt="">
-																			<img class="img-responsive" src="/images/jiatu/fengye/3.jpg" alt="">
+																			<img class="img-responsive" src="/images/jiatu/fengye/4.jpg" alt="">
+																			<img class="img-responsive" src="/images/jiatu/fengye/5.jpg" alt="">
 																		</div>
 		                                <div class="tab-pane fade" id="tab2primary" style="background-color: #fff;">
                                       <h4>第一天：造访枫叶之国&mdash;&mdash;加拿大</h4>
