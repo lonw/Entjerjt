@@ -89,7 +89,7 @@ class YudingController extends Controller
                    'priceBase'=>$priceBase
             );
          $detail=serialize($numTour);
-            return View::make('Booking')->with('numTour',$numTour)
+            return View::make('booking')->with('numTour',$numTour)
                                         ->with('detail',$detail);
     }
 }
