@@ -28,7 +28,7 @@
               </div>
         </div>
       </a>
-      <a href="autumn">
+      <a href="qiuji">
         <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 comSection">
             <img class="imgBorder" src="/images/main_page/season/autumn.jpg" style="width:  100%">
             <div class="comName" ><img src="/images/8.png" style="width:  100%"></div>
@@ -56,7 +56,7 @@
         <center><img class="" src="/images/main_page/teji/4.png" style="width:  60%;"></center>
 
     </div></a>
-      <a href="qiuji">
+      <a href="fengye">
     <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 ">
         <center><img class="" src="/images/main_page/teji/5.png" style="width:  60%;"></center>
 
